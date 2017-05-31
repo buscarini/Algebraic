@@ -8,19 +8,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://gitlab.treenovum-servic.es/iOS/Algebraic'
+  s.homepage         = 'http://github.com/buscarini/Algebraic'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 
-    'José Manuel' => 'josema@treenovum.es',
-    'Vicente Crespo' => 'vicente.crespo@treenovum.es'
+    'José Manuel' => 'buscarini@gmail.com'
   }
-  s.source           = { :git => 'git@gitlab.treenovum-servic.es:iOS/Algebraic.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:buscarini/Algebraic.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Algebraic/Classes/**/*'
-  
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
+
 end

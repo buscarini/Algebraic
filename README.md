@@ -21,8 +21,7 @@ pod "Algebraic"
 
 ## Author
 
-'José Manuel', 'josema@treenovum.es'
-'Vicente Crespo', 'vicente.crespo@treenovum.es'
+'José Manuel', 'buscarini@gmail.com'
 
 ## License
 

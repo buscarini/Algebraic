@@ -31,8 +31,7 @@
 		099F725E5374515950EAE067 /* Pods_Algebraic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algebraic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA45ADDAC2B3694A6A5633A /* Pods_Algebraic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algebraic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E7ED9690BF4101CCD04B66 /* Pods-Algebraic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		29D1CE399F0907CEC1D28330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2F440CF3F2C84548049025E5 /* packager.config */ = {isa = PBXFileReference; includeInIndex = 1; name = packager.config; path = ../packager.config; sourceTree = "<group>"; };
+		29D1CE399F0907CEC1D28330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		57F9AE56F3B4C1E4E03D1016 /* Pods-Algebraic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Algebraic_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algebraic_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,10 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74D4E9F2F1ABA9102EE24348 /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D8B1A68EFD480A5E67EAB9E /* template_info.md */ = {isa = PBXFileReference; includeInIndex = 1; name = template_info.md; path = ../template_info.md; sourceTree = "<group>"; };
 		DFAAE3470EBA20D8575C630A /* Pods-Algebraic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E0F55EFB6B3F345E3A31BC5F /* Algebraic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Algebraic.podspec; path = ../Algebraic.podspec; sourceTree = "<group>"; };
-		FA1525164417CE77D7B8D212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0F55EFB6B3F345E3A31BC5F /* Algebraic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Algebraic.podspec; path = ../Algebraic.podspec; sourceTree = "<group>"; };
+		FA1525164417CE77D7B8D212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +135,6 @@
 				E0F55EFB6B3F345E3A31BC5F /* Algebraic.podspec */,
 				29D1CE399F0907CEC1D28330 /* README.md */,
 				FA1525164417CE77D7B8D212 /* LICENSE */,
-				2F440CF3F2C84548049025E5 /* packager.config */,
-				9D8B1A68EFD480A5E67EAB9E /* template_info.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
