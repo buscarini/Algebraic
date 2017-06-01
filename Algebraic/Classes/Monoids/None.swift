@@ -25,6 +25,12 @@ extension None: Monoid {
 	}
 }
 
+extension None: Hashable {
+	public var hashValue: Int {
+		return value.hashValue
+	}
+}
+
 extension None: CustomStringConvertible {
 	public var description: String {
 		return "None(\(value))"

@@ -25,6 +25,12 @@ extension All: Monoid {
 	}
 }
 
+extension All: Hashable {
+	public var hashValue: Int {
+		return value.hashValue
+	}
+}
+
 extension All: CustomStringConvertible {
 	public var description: String {
 		return "All(\(value))"

@@ -31,6 +31,12 @@ extension Min: CustomStringConvertible {
 	}
 }
 
+extension Min: Hashable {
+	public var hashValue: Int {
+		return "Min \(String(describing: value))".hashValue
+	}
+}
+
 extension Min: Equatable, Comparable {
 	public static func == <T: Equatable>(x: Min<T>, y: Min<T>) -> Bool {
 		return x.value == y.value

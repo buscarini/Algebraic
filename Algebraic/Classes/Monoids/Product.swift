@@ -25,6 +25,12 @@ extension Product: Monoid {
 	}
 }
 
+extension Product: Hashable {
+	public var hashValue: Int {
+		return value.hashValue
+	}
+}
+
 extension Product: CustomStringConvertible {
 	public var description: String {
 		return "Product(\(value))"

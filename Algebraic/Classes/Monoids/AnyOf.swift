@@ -25,6 +25,12 @@ extension AnyOf: Monoid {
 	}
 }
 
+extension AnyOf: Hashable {
+	public var hashValue: Int {
+		return value.hashValue
+	}
+}
+
 extension AnyOf: CustomStringConvertible {
 	public var description: String {
 		return "AnyOf(\(value))"

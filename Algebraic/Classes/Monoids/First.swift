@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct First<A>: Pointed, Copointed {
+public struct First<A: Equatable>: Equatable, Pointed, Copointed {
 	public let value: A?
 	public init(_ value: A?) {
 		self.value = value
@@ -22,6 +22,16 @@ extension First: Monoid {
 	
 	public static func <>(left: First, right: First) -> First {
 		return left
+	}
+}
+
+public func == <A>(left: First<A>, right: First<A>) -> Bool {
+	return left.value == right.value
+}
+
+extension First: Hashable {
+	public var hashValue: Int {
+		return "First \(String(describing: value))".hashValue
 	}
 }
 

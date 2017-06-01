@@ -31,6 +31,12 @@ extension Max: CustomStringConvertible {
 	}
 }
 
+extension Max: Hashable {
+	public var hashValue: Int {
+		return "Max \(String(describing: value))".hashValue
+	}
+}
+
 extension Max: Equatable, Comparable {
 	public static func == <T: Equatable>(x: Max<T>, y: Max<T>) -> Bool {
 		return x.value == y.value

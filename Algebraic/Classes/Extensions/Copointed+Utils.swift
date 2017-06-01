@@ -15,4 +15,3 @@ public func == <P: Copointed>(left: P, right: P) -> Bool where P.A: Equatable {
 public func < <P: Copointed> (left: P,right: P) -> Bool where P.A: Comparable {
 	return left.value < right.value
 }
-
