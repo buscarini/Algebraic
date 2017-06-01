@@ -13,7 +13,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* All.swift */; };
+		AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9111EDFEDA7000110BD /* Min.swift */; };
+		AC4ED9141EDFF089000110BD /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9131EDFF089000110BD /* Max.swift */; };
+		AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9171EDFF4E8000110BD /* Performance.swift */; };
 		B4A3E899BE2B55494D12D567 /* Pods_Algebraic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA45ADDAC2B3694A6A5633A /* Pods_Algebraic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +45,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Algebraic_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Algebraic_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
 		74D4E9F2F1ABA9102EE24348 /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4ED9111EDFEDA7000110BD /* Min.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
+		AC4ED9131EDFF089000110BD /* Max.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
+		AC4ED9171EDFF4E8000110BD /* Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
 		DFAAE3470EBA20D8575C630A /* Pods-Algebraic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0F55EFB6B3F345E3A31BC5F /* Algebraic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Algebraic.podspec; path = ../Algebraic.podspec; sourceTree = "<group>"; };
 		FA1525164417CE77D7B8D212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -115,7 +121,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* All.swift */,
+				AC4ED9111EDFEDA7000110BD /* Min.swift */,
+				AC4ED9131EDFF089000110BD /* Max.swift */,
+				AC4ED9171EDFF4E8000110BD /* Performance.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -370,7 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				AC4ED9141EDFF089000110BD /* Max.swift in Sources */,
+				AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* All.swift in Sources */,
+				AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algebraic_Example.app/Algebraic_Example";
 			};
 			name = Debug;
 		};
@@ -552,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algebraic_Example.app/Algebraic_Example";
 			};
 			name = Release;
 		};

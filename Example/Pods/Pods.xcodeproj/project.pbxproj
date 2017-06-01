@@ -34,6 +34,8 @@
 		AC2263491EDF0F1900411525 /* Bool+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2263481EDF0F1900411525 /* Bool+Monoid.swift */; };
 		AC22634B1EDF0F5700411525 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22634A1EDF0F5700411525 /* Predicate.swift */; };
 		AC22634D1EDF0FE500411525 /* Array+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22634C1EDF0FE500411525 /* Array+Predicate.swift */; };
+		AC4ED9161EDFF207000110BD /* Set+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9151EDFF207000110BD /* Set+Monoid.swift */; };
+		AC4ED91A1EDFF529000110BD /* Array+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9191EDFF529000110BD /* Array+Reduce.swift */; };
 		B554A5E12941E0C9EC7C8D735A6B025A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF1431B32CC12D4678ADF81E6010B /* Product.swift */; };
 		B5E0FC8D25A7736AAEE05AC4B9D17E38 /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E32B61ECA93B9F62FAE7CC94173E0 /* Numeric.swift */; };
 		C08DCE1DDF2D64825B51E0DE2D044EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -97,6 +99,8 @@
 		AC2263481EDF0F1900411525 /* Bool+Monoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+Monoid.swift"; sourceTree = "<group>"; };
 		AC22634A1EDF0F5700411525 /* Predicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
 		AC22634C1EDF0FE500411525 /* Array+Predicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Predicate.swift"; sourceTree = "<group>"; };
+		AC4ED9151EDFF207000110BD /* Set+Monoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+Monoid.swift"; sourceTree = "<group>"; };
+		AC4ED9191EDFF529000110BD /* Array+Reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Reduce.swift"; sourceTree = "<group>"; };
 		BFAE5CD0A649F588A369B765A23F476C /* Pods_Algebraic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algebraic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7FB5D8713E618890879C3AD68C1BC /* Sequence+Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Semigroup.swift"; sourceTree = "<group>"; };
 		C6C8904EFAA6024E79FF889F66B21FD2 /* Max.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 				020DA97E7B377F10363397E21940D439 /* Sequence+Monoid.swift */,
 				C2F7FB5D8713E618890879C3AD68C1BC /* Sequence+Semigroup.swift */,
 				AC22634C1EDF0FE500411525 /* Array+Predicate.swift */,
+				AC4ED9191EDFF529000110BD /* Array+Reduce.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				68C3081479F4BFB92DC08EA552872C0C /* Sum.swift */,
 				AC2263481EDF0F1900411525 /* Bool+Monoid.swift */,
 				AC22634A1EDF0F5700411525 /* Predicate.swift */,
+				AC4ED9151EDFF207000110BD /* Set+Monoid.swift */,
 			);
 			path = Monoids;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				373D771DB0C2024DED7ED0CE1C989CE8 /* Endo.swift in Sources */,
 				4789732B59E8D76E71F23AAA56995B5D /* First.swift in Sources */,
 				58FAF4AB72AB44202F8F52CDF06CCF9C /* FuncM.swift in Sources */,
+				AC4ED91A1EDFF529000110BD /* Array+Reduce.swift in Sources */,
 				42CEE2271D60413B387B8CE89B9D74A2 /* id.swift in Sources */,
 				987109EF5C53CD2A69EEA3B23C68B073 /* Last.swift in Sources */,
 				545A8792D119EA4D3DE9FE4C8B38FE5A /* Max.swift in Sources */,
@@ -480,6 +487,7 @@
 				A8E8169D930FA897154F101D1F857D99 /* None.swift in Sources */,
 				B5E0FC8D25A7736AAEE05AC4B9D17E38 /* Numeric.swift in Sources */,
 				73902CDFCBAE2D77FE45D22A1F7D0AE2 /* Pointed.swift in Sources */,
+				AC4ED9161EDFF207000110BD /* Set+Monoid.swift in Sources */,
 				B554A5E12941E0C9EC7C8D735A6B025A /* Product.swift in Sources */,
 				C6FB08EF2F62E2A276281B6A933DDCAF /* Semigroup.swift in Sources */,
 				818D744B17ECF2553AE7C5AD3610892D /* Sequence+FoldMap.swift in Sources */,

@@ -17,4 +17,3 @@ public extension Sequence where Iterator.Element: Monoid {
         return result
     }
 }
-
