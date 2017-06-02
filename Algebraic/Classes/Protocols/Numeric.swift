@@ -14,6 +14,7 @@ public protocol Numeric: Equatable, Hashable, Comparable {
 	static func +(lhs: Self, rhs: Self) -> Self
 	static func -(lhs: Self, rhs: Self) -> Self
 	static func *(lhs: Self, rhs: Self) -> Self
+	static func /(lhs: Self, rhs: Self) -> Self
 }
 
 extension Int: Numeric {
@@ -39,6 +40,11 @@ extension Int16: Numeric {
 extension Int8: Numeric {
 	public static var zero: Int8 { return 0 }
 	public static var one: Int8 { return 1 }
+}
+
+extension UInt: Numeric {
+	public static var zero: UInt { return 0 }
+	public static var one: UInt { return 1 }
 }
 
 extension UInt64: Numeric {

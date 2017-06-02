@@ -14,9 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* All.swift */; };
+		AC2A44161EE060BB00E7E6C0 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A44151EE060BB00E7E6C0 /* Sum.swift */; };
 		AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9111EDFEDA7000110BD /* Min.swift */; };
 		AC4ED9141EDFF089000110BD /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9131EDFF089000110BD /* Max.swift */; };
 		AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9171EDFF4E8000110BD /* Performance.swift */; };
+		AC68C56B1EE1972000CE4D87 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68C5691EE1932200CE4D87 /* Average.swift */; };
 		B4A3E899BE2B55494D12D567 /* Pods_Algebraic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA45ADDAC2B3694A6A5633A /* Pods_Algebraic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,9 +49,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
 		74D4E9F2F1ABA9102EE24348 /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2A44151EE060BB00E7E6C0 /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		AC4ED9111EDFEDA7000110BD /* Min.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
 		AC4ED9131EDFF089000110BD /* Max.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
 		AC4ED9171EDFF4E8000110BD /* Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		AC68C5691EE1932200CE4D87 /* Average.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
 		DFAAE3470EBA20D8575C630A /* Pods-Algebraic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0F55EFB6B3F345E3A31BC5F /* Algebraic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Algebraic.podspec; path = ../Algebraic.podspec; sourceTree = "<group>"; };
 		FA1525164417CE77D7B8D212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -124,7 +128,9 @@
 				607FACEB1AFB9204008FA782 /* All.swift */,
 				AC4ED9111EDFEDA7000110BD /* Min.swift */,
 				AC4ED9131EDFF089000110BD /* Max.swift */,
+				AC2A44151EE060BB00E7E6C0 /* Sum.swift */,
 				AC4ED9171EDFF4E8000110BD /* Performance.swift */,
+				AC68C5691EE1932200CE4D87 /* Average.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -379,8 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2A44161EE060BB00E7E6C0 /* Sum.swift in Sources */,
 				AC4ED9141EDFF089000110BD /* Max.swift in Sources */,
 				AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */,
+				AC68C56B1EE1972000CE4D87 /* Average.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* All.swift in Sources */,
 				AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */,
 			);
