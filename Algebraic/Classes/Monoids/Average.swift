@@ -27,6 +27,13 @@ public struct Average<A: Numeric>: Pointed, Copointed{
 	}
 }
 
+// MARK: Functor
+extension Average {
+	public func map<B>(_ f: (A) -> B) -> Average<B> {
+		return Average<B>(f(sumValues))
+	}
+}
+
 extension Average: Monoid {
 	public static var empty: Average {
 		return Average(A.zero, numValues: A.zero)

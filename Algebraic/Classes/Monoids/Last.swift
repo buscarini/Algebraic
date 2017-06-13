@@ -15,6 +15,13 @@ public struct Last<A: Equatable>: Equatable, Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension Last {
+	public func map<B>(_ f: (A) -> B) -> Last<B> {
+		return Last<B>(self.value.map(f))
+	}
+}
+
 extension Last: Monoid {
 	public static var empty: Last {
 		return Last(nil)

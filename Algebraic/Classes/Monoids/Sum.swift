@@ -15,6 +15,13 @@ public struct Sum<A: Numeric>: Pointed, Copointed{
 	}
 }
 
+// MARK: Functor
+extension Sum {
+	public func map<B>(_ f: (A) -> B) -> Sum<B> {
+		return Sum<B>(f(value))
+	}
+}
+
 extension Sum: Monoid {
 	public static var empty: Sum {
 		return Sum(A.zero)

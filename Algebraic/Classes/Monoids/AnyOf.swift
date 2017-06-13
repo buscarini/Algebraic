@@ -15,6 +15,13 @@ public struct AnyOf: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension AnyOf {
+	public func map(_ f: (Bool) -> Bool) -> AnyOf {
+		return AnyOf(f(self.value))
+	}
+}
+
 extension AnyOf: Monoid {
 	public static var empty: AnyOf {
 		return AnyOf(false)

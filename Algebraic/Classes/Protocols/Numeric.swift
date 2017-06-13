@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol Numeric: Equatable, Hashable, Comparable {
+public protocol Numeric: Hashable, Comparable {
 	static var zero: Self { get }
 	static var one: Self { get }
 	static func +(lhs: Self, rhs: Self) -> Self

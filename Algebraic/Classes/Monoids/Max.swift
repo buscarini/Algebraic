@@ -15,6 +15,13 @@ public struct Max<A: Comparable>: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension Max {
+	public func map<B>(_ f: (A) -> B) -> Max<B> {
+		return Max<B>(self.value.map(f))
+	}
+}
+
 extension Max: Monoid {
 	public static var empty: Max {
 		return Max(nil)
@@ -38,11 +45,11 @@ extension Max: Hashable {
 }
 
 extension Max: Equatable, Comparable {
-	public static func == <T: Equatable>(x: Max<T>, y: Max<T>) -> Bool {
+	public static func == <T>(x: Max<T>, y: Max<T>) -> Bool {
 		return x.value == y.value
 	}
 	
-	public static func < <T: Comparable>(x: Max<T>, y: Max<T>) -> Bool {
+	public static func < <T>(x: Max<T>, y: Max<T>) -> Bool {
 		switch (x.value, y.value) {
 			case (.none, .none): return false
 			case (.none, .some): return true

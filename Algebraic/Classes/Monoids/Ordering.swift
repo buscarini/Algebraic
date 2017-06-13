@@ -26,6 +26,19 @@ extension Ordering: Monoid {
 	}
 }
 
+extension Ordering {
+	public var inverse: Ordering {
+		switch self {
+			case .lt:
+				return .gt
+			case .gt:
+				return .lt
+			case .eq:
+				return .eq
+		}
+	}
+}
+
 public typealias Comparator<A> = FuncM<(A, A), Ordering>
 
 extension Comparable {
@@ -36,3 +49,11 @@ extension Comparable {
 	}
 }
 
+extension FuncM where M == Ordering {
+	func reversed() -> FuncM {
+		return FuncM { input in
+			return self.value(input).inverse
+		}
+		
+	}
+}

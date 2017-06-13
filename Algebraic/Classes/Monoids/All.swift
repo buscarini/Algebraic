@@ -15,6 +15,14 @@ public struct All: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension All {
+	public func map(_ f: (Bool) -> Bool) -> All {
+		return All(f(self.value))
+	}
+}
+
+
 extension All: Monoid {
 	public static var empty: All {
 		return All(true)

@@ -15,6 +15,13 @@ public struct Product<A: Numeric>: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension Product {
+	public func map<B>(_ f: (A) -> B) -> Product<B> {
+		return Product<B>(f(value))
+	}
+}
+
 extension Product: Monoid {
 	public static var empty: Product {
 		return Product(A.one)

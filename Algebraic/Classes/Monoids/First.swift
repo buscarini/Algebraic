@@ -15,6 +15,13 @@ public struct First<A: Equatable>: Equatable, Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension First {
+	public func map<B>(_ f: (A) -> B) -> First<B> {
+		return First<B>(self.value.map(f))
+	}
+}
+
 extension First: Monoid {
 	public static var empty: First {
 		return First(nil)

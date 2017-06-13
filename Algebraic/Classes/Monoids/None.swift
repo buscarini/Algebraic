@@ -15,6 +15,13 @@ public struct None: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension None {
+	public func map(_ f: (Bool) -> Bool) -> None {
+		return None(f(self.value))
+	}
+}
+
 extension None: Monoid {
 	public static var empty: None {
 		return None(false)

@@ -15,6 +15,13 @@ public struct Min<A: Comparable>: Pointed, Copointed {
 	}
 }
 
+// MARK: Functor
+extension Min {
+	public func map<B>(_ f: (A) -> B) -> Min<B> {
+		return Min<B>(self.value.map(f))
+	}
+}
+
 extension Min: Monoid {
 	public static var empty: Min {
 		return Min(nil)
@@ -38,11 +45,11 @@ extension Min: Hashable {
 }
 
 extension Min: Equatable, Comparable {
-	public static func == <T: Equatable>(x: Min<T>, y: Min<T>) -> Bool {
+	public static func == <T>(x: Min<T>, y: Min<T>) -> Bool {
 		return x.value == y.value
 	}
 	
-	public static func < <T: Comparable>(x: Min<T>, y: Min<T>) -> Bool {
+	public static func < <T>(x: Min<T>, y: Min<T>) -> Bool {
 		switch (x.value, y.value) {
 			case (.none, .none): return false
 			case (.none, .some): return false

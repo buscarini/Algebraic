@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FuncM<A, M: Monoid>: Pointed, Copointed {
+public struct FuncM<A, M: Monoid> {
 	public let value: (A) -> M
 	public init(_ value: @escaping (A) -> M) {
 		self.value = value
