@@ -7,7 +7,12 @@
 
 import Foundation
 
-public typealias NatTransformMonoid = Monoid & Pointed & Copointed
+//public typealias NatTransformMonoid = Monoid & Pointed & Copointed
+
+
+public func transform<M1: Copointed, M2: Pointed>(_ a: M1) -> M2 where M1.A == M2.A {
+	return M2(a.value)
+}
 
 // Uncomment when it doesn't crash the compiler
 //public func transform<M1: NatTransformMonoid, M2: NatTransformMonoid>(_ a: M1) -> M2 where M1.A == M2.A {

@@ -16,6 +16,11 @@
 		607FACEC1AFB9204008FA782 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* All.swift */; };
 		AC2A44161EE060BB00E7E6C0 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A44151EE060BB00E7E6C0 /* Sum.swift */; };
 		AC3188AB1EE9FC1E0013B76C /* NatTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3188AA1EE9FC1E0013B76C /* NatTransformations.swift */; };
+		AC459D5C1F260CF000DEE7FF /* Laws.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D5A1F260C0100DEE7FF /* Laws.swift */; };
+		AC459D651F260ED600DEE7FF /* Longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D631F260ECD00DEE7FF /* Longest.swift */; };
+		AC459D681F260F3A00DEE7FF /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D661F260F1E00DEE7FF /* Shortest.swift */; };
+		AC459D6B1F260FFB00DEE7FF /* Earliest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D691F260FB500DEE7FF /* Earliest.swift */; };
+		AC459D6E1F26101900DEE7FF /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D6C1F26100200DEE7FF /* Latest.swift */; };
 		AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9111EDFEDA7000110BD /* Min.swift */; };
 		AC4ED9141EDFF089000110BD /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9131EDFF089000110BD /* Max.swift */; };
 		AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9171EDFF4E8000110BD /* Performance.swift */; };
@@ -52,6 +57,11 @@
 		74D4E9F2F1ABA9102EE24348 /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algebraic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC2A44151EE060BB00E7E6C0 /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		AC3188AA1EE9FC1E0013B76C /* NatTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatTransformations.swift; sourceTree = "<group>"; };
+		AC459D5A1F260C0100DEE7FF /* Laws.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laws.swift; sourceTree = "<group>"; };
+		AC459D631F260ECD00DEE7FF /* Longest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Longest.swift; sourceTree = "<group>"; };
+		AC459D661F260F1E00DEE7FF /* Shortest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		AC459D691F260FB500DEE7FF /* Earliest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Earliest.swift; sourceTree = "<group>"; };
+		AC459D6C1F26100200DEE7FF /* Latest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
 		AC4ED9111EDFEDA7000110BD /* Min.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
 		AC4ED9131EDFF089000110BD /* Max.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
 		AC4ED9171EDFF4E8000110BD /* Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
@@ -134,6 +144,11 @@
 				AC4ED9171EDFF4E8000110BD /* Performance.swift */,
 				AC68C5691EE1932200CE4D87 /* Average.swift */,
 				AC3188AA1EE9FC1E0013B76C /* NatTransformations.swift */,
+				AC459D5A1F260C0100DEE7FF /* Laws.swift */,
+				AC459D691F260FB500DEE7FF /* Earliest.swift */,
+				AC459D6C1F26100200DEE7FF /* Latest.swift */,
+				AC459D631F260ECD00DEE7FF /* Longest.swift */,
+				AC459D661F260F1E00DEE7FF /* Shortest.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -391,8 +406,13 @@
 				AC2A44161EE060BB00E7E6C0 /* Sum.swift in Sources */,
 				AC4ED9141EDFF089000110BD /* Max.swift in Sources */,
 				AC4ED9121EDFEDA7000110BD /* Min.swift in Sources */,
+				AC459D681F260F3A00DEE7FF /* Shortest.swift in Sources */,
 				AC68C56B1EE1972000CE4D87 /* Average.swift in Sources */,
+				AC459D5C1F260CF000DEE7FF /* Laws.swift in Sources */,
 				AC3188AB1EE9FC1E0013B76C /* NatTransformations.swift in Sources */,
+				AC459D651F260ED600DEE7FF /* Longest.swift in Sources */,
+				AC459D6E1F26101900DEE7FF /* Latest.swift in Sources */,
+				AC459D6B1F260FFB00DEE7FF /* Earliest.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* All.swift in Sources */,
 				AC4ED9181EDFF4E8000110BD /* Performance.swift in Sources */,
 			);

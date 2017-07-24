@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Sum<A: Numeric>: Pointed, Copointed{
+public struct Sum<A: Numeric>: Pointed, Copointed {
 	public let value: A
 	public init(_ value: A) {
 		self.value = value
