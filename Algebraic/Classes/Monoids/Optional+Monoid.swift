@@ -22,25 +22,6 @@ extension Optional: Monoid where Wrapped: Semigroup {
 			
 			case (.some(let leftVal), .some(let rightVal)):
 				return leftVal <> rightVal
-			
-//			default:
-//				fatalError("Compiler is dumb")
-		}
-	}
-	
-	// For optionals of non semigroups, it works like the First Monoid
-	public static func <>(left: Optional, right: Optional) -> Optional {
-		switch (left, right) {
-			case (nil, _):
-				return right
-			case (_, nil):
-				return left
-			
-			case (.some, .some):
-				return left
-			
-//			default:
-//				fatalError("Compiler is dumb")
 		}
 	}
 }
