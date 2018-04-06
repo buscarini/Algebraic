@@ -11,10 +11,10 @@ import Foundation
 // We implement all as the default bool monoid. Useful for predicates
 extension Bool: Monoid {
 	public static var empty: Bool {
-		return true
+		return All.empty.value
 	}
 	
 	public static func <>(left: Bool, right: Bool) -> Bool {
-		return left && right
+		return (All(left) <> All(right)).value
 	}
 }

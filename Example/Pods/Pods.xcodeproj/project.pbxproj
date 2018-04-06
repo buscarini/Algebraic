@@ -7,51 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050CA478C5F54F3E8DF4A36668BFCC4C /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123ABCD412CB3F96E498B41E38A14556 /* Min.swift */; };
-		270A966A84C2BBAD1F4E797E4EF1312A /* Copointed+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA23FFF585DEA5D0574BC2490EC30E5 /* Copointed+Utils.swift */; };
-		281F8DDC9EBA13906A9E250902DCB269 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3081479F4BFB92DC08EA552872C0C /* Sum.swift */; };
-		32E66A60A05D3ADB9EE6B190453D3F6C /* Algebraic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B81F7C25BC008A370D786C727EF2258 /* Algebraic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		358945281C01ACDA9B2C8703A22A6ABD /* Copointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845747316929E91B6988039F5A78A664 /* Copointed.swift */; };
-		373D771DB0C2024DED7ED0CE1C989CE8 /* Endo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B384FA3AB4B58BF11EA6310951373 /* Endo.swift */; };
-		38186F8A6A5780E34B3AFF0DFE9516E8 /* Pods-Algebraic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AB7748302251961B97E4CCE1BDCA1C /* Pods-Algebraic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A54F502FB6B020ECD684D16E27E096C /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C557820416AFD085BB72D83FB7642B9 /* All.swift */; };
-		3B027B2336833B0140399CBD3465CF8E /* AnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BEEE79CF790C19B723F508B6D1256 /* AnyOf.swift */; };
-		40D3847A1F6841FD958BF88809CEDF5D /* Pods-Algebraic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD44C7B351BA3B2DD9257C71CA519C0 /* Pods-Algebraic_Tests-dummy.m */; };
-		42CEE2271D60413B387B8CE89B9D74A2 /* id.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C4A0390E878042C9FF650A46C9F00 /* id.swift */; };
-		45252C2F2C2621794E4CA2D5F7306CE2 /* Pods-Algebraic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB498E6A509E7733C864D000D0B027 /* Pods-Algebraic_Example-dummy.m */; };
-		4789732B59E8D76E71F23AAA56995B5D /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB52921A6E9D53949E5E728F75E7B2E /* First.swift */; };
-		545A8792D119EA4D3DE9FE4C8B38FE5A /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8904EFAA6024E79FF889F66B21FD2 /* Max.swift */; };
-		561419261B03A89925398C2BE7F428BA /* Pods-Algebraic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 285EBC4A40321DCB05745688FF053934 /* Pods-Algebraic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58FAF4AB72AB44202F8F52CDF06CCF9C /* FuncM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4E3B0E2A71FBC58BF420F99A15E12 /* FuncM.swift */; };
-		73902CDFCBAE2D77FE45D22A1F7D0AE2 /* Pointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B1DEF696A6ECBECD8FFAEF72D2F90 /* Pointed.swift */; };
-		818D744B17ECF2553AE7C5AD3610892D /* Sequence+FoldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04E41EE9784E20713A6C0E2E1AE4D9 /* Sequence+FoldMap.swift */; };
-		8B373217D0BCCE8046299E424F9B50ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8D1436EC3651AD7F5AAFD86217482E06 /* Algebraic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2199A93903F6E68FA5A4CFCA6EC55 /* Algebraic-dummy.m */; };
-		987109EF5C53CD2A69EEA3B23C68B073 /* Last.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4E0F60B1664F8CBC5FB35D9AFB983 /* Last.swift */; };
+		03D9D030C065DA73EE2E08C163F395E5 /* UpperBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C090EE7469F0F2F728B05E415867D /* UpperBounded.swift */; };
+		0969486A1E0E29EF890ED749D27F683F /* Array+Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB4C19486E094167EFC4BB7055D157 /* Array+Comparator.swift */; };
+		10B7F186E628932D3F708817A1B5039A /* Sequence+Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC437C7737DCDF3FCCD9858B87F4A94 /* Sequence+Semigroup.swift */; };
+		143A2D176987BA46B832A2E5AFB282E3 /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D80B94EED82F511DA2C1990C572A6 /* Latest.swift */; };
+		1631F451AF2C7A9DE598516F8B1E46DB /* Copointed+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F6F9776CBDC5D3963536DD5B02255 /* Copointed+Utils.swift */; };
+		168FFA2D887B71BB217618499639B894 /* AnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22B43BB37833F5AD6F03AEC5CE9428C /* AnyOf.swift */; };
+		1782048C17B451DD15BF0E81593FA2CF /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD7F9FD1746E308A4E534087B3DAC9 /* All.swift */; };
+		1ED01EBC37819B18B7F86E248545A641 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5439E1FBDDFDC17C70504314FD46DC /* Product.swift */; };
+		291287FF2CFB5903CC7761C9792E8F55 /* String+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6078C53AC2B854BF4D0BA7588032F /* String+Monoid.swift */; };
+		3589089026726FE74EE85A030FC4EBED /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6506D25FED4FD22115F8B17CE140B2E1 /* Semigroup.swift */; };
+		36156D8698EFEB657DDEBB8F0F4CEBA3 /* Earliest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA83E54F4938DC17DB5F1E3018662 /* Earliest.swift */; };
+		38186F8A6A5780E34B3AFF0DFE9516E8 /* Pods-Algebraic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE15120675B01ED054F130179754D7C /* Pods-Algebraic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D385B62B6F4BA5CCD190557889F4A7F /* Sequence+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0ADFCB37CFC62C87C22C8BF22CB297 /* Sequence+Monoid.swift */; };
+		3F0E10C561C3D3D57346541170C8F0CB /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C26BAA6EF8F02914607FC3C3AC3FE /* Monoid.swift */; };
+		40D3847A1F6841FD958BF88809CEDF5D /* Pods-Algebraic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C06F188F8365CED0104870C707AC13C /* Pods-Algebraic_Tests-dummy.m */; };
+		40EADD5900EA4969CA9D0EE3542A5167 /* Bounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9345DE9700B48CB40025354324CA61 /* Bounded.swift */; };
+		426AAECECBA8C9678FC887DD5135540D /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B940485F8329A493B772AE8EE57679B /* Sum.swift */; };
+		45252C2F2C2621794E4CA2D5F7306CE2 /* Pods-Algebraic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEA04F4FB03031BF03965B148066E3 /* Pods-Algebraic_Example-dummy.m */; };
+		46A61CE8225556E04CD7D8A2DCA51EA8 /* Algebraic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD67CA60EC047A443C4496061F268E7 /* Algebraic-dummy.m */; };
+		5254EC15D9480DE7BF373A7483962F0D /* Copointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4148258F89A9569BC175666BF1385 /* Copointed.swift */; };
+		561419261B03A89925398C2BE7F428BA /* Pods-Algebraic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5152A2D43C0F2F0A78DFCDE0C7CB08A /* Pods-Algebraic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A71D7EE262BB7DBB200DEC9276D64E /* Array+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5852B3D3C8CC606E45B63D5E63BF52B /* Array+Monoid.swift */; };
+		5B93DE8DDD8BB479A5C42BAF09D46967 /* Endo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB762456329AE2B46E62CC2A943701 /* Endo.swift */; };
+		5BDC0456A361D65DC9AD204BAD50BF39 /* Array+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B010B73E2F9964135A1C001D839596 /* Array+Reduce.swift */; };
+		616DE30348BDCA48156051E98A2EBAD9 /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21CC4467316ABAEA762AF6DBD0AB53 /* Numeric.swift */; };
+		6260CD50E0CFD0122F7E7D42CBB87847 /* Longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E00DFB550518B6E503DFE429C2A1873 /* Longest.swift */; };
+		772E02C1F66D3CAB67203FC6F62B0474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		78B731C5D3BFBB26E7ACA402AB007674 /* Last.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB0DFEBA982028EAB747DF18B425FC /* Last.swift */; };
+		7E529050DB042609AF19FC917D9A8805 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337174CA096017DCCC69B94D4F22AD6 /* First.swift */; };
+		88D609CF97C38B27160BCB3E6953DECE /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A66FF8B171F23D9A98A719C71DF64 /* Shortest.swift */; };
+		8D5D3F033FB22BF6ADD534A178A61054 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8EB8E018C5F29716857BB22401F02 /* Max.swift */; };
+		977DFB99774FADACC11FE74B3DA60676 /* Array+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7D2D1BE0FD7F2E6B3D49FEA91FB27 /* Array+Predicate.swift */; };
+		9CC6E60A8193D4811B2C4D686886538F /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2EE9495ED9E3F4025DB5CC30B56BF9 /* Predicate.swift */; };
 		9CD9EE3DA1C5258766857E0635417398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A0C3503CE8E76A60FA5AA75657CA6F8E /* Array+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF80486E49278ADF7DB92CC78809D7 /* Array+Monoid.swift */; };
-		A8E8169D930FA897154F101D1F857D99 /* None.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21139F208CCDD3E6D930F8F3BF85F5 /* None.swift */; };
-		AC2263491EDF0F1900411525 /* Bool+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2263481EDF0F1900411525 /* Bool+Monoid.swift */; };
-		AC22634B1EDF0F5700411525 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22634A1EDF0F5700411525 /* Predicate.swift */; };
-		AC22634D1EDF0FE500411525 /* Array+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22634C1EDF0FE500411525 /* Array+Predicate.swift */; };
-		AC3188A91EE9F8FB0013B76C /* NaturalTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3188A81EE9F8FB0013B76C /* NaturalTransformation.swift */; };
-		AC459D591F2609A200DEE7FF /* Earliest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D581F2609A200DEE7FF /* Earliest.swift */; };
-		AC459D5E1F260DE300DEE7FF /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D5D1F260DE300DEE7FF /* Latest.swift */; };
-		AC459D601F260E0F00DEE7FF /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D5F1F260E0F00DEE7FF /* Shortest.swift */; };
-		AC459D621F260E7000DEE7FF /* Longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC459D611F260E7000DEE7FF /* Longest.swift */; };
-		AC4ED9161EDFF207000110BD /* Set+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9151EDFF207000110BD /* Set+Monoid.swift */; };
-		AC4ED91A1EDFF529000110BD /* Array+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED9191EDFF529000110BD /* Array+Reduce.swift */; };
-		AC68C5681EE17A0C00CE4D87 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68C5671EE17A0C00CE4D87 /* Average.swift */; };
-		ACEB6D2E1EE043C800C0D2DB /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB6D2D1EE043C800C0D2DB /* Ordering.swift */; };
-		ACEB6D301EE0445500C0D2DB /* Array+Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB6D2F1EE0445500C0D2DB /* Array+Comparator.swift */; };
-		B554A5E12941E0C9EC7C8D735A6B025A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF1431B32CC12D4678ADF81E6010B /* Product.swift */; };
-		B5E0FC8D25A7736AAEE05AC4B9D17E38 /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E32B61ECA93B9F62FAE7CC94173E0 /* Numeric.swift */; };
+		A1D4BC9B32C837CF2F6A82C1BE9DB7FF /* Pointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FA00DCA7F273F14C7A6AECECBFA5E8 /* Pointed.swift */; };
+		ABEF88A967528200895D3849CA35346F /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C5CB3E1D881019363BBD9D570B2AD /* Ordering.swift */; };
+		AD66D554FCA01723200FC6956E704110 /* Sequence+FoldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FFAE76870AA92584CDF6C67DDEBB04 /* Sequence+FoldMap.swift */; };
+		BF92CB5E0D9C79A1540ABB84ACCD776A /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C1722FBA58DF7A6C577E646E8A4D /* Min.swift */; };
 		C08DCE1DDF2D64825B51E0DE2D044EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C6FB08EF2F62E2A276281B6A933DDCAF /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3809145C06A29EDD869FB5AF1E477C /* Semigroup.swift */; };
-		E990F919FA880A4320E3564B3C516C12 /* Sequence+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DA97E7B377F10363397E21940D439 /* Sequence+Monoid.swift */; };
-		F5DAEA656DC76CFEE9FFC5D7283453CD /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6B5F0CA07CB58EC43919FB0C8D3E8 /* Monoid.swift */; };
-		F935A4665CD859593D98E72D3A9AEFF4 /* Sequence+Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7FB5D8713E618890879C3AD68C1BC /* Sequence+Semigroup.swift */; };
-		FC3BBC6021DC44D2A2BC8E617BAFE6EA /* String+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068824259210A4790076CE00F02F1EA1 /* String+Monoid.swift */; };
+		C1BF88EF83D26AB11D4B170E58A30F52 /* None.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA9C22DC1FAAF646913156A070D1765 /* None.swift */; };
+		CD1E759475CBB31DF3FCE0A65120C79B /* FuncM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860020E236F093FDC314E6F9B5B06AD8 /* FuncM.swift */; };
+		CD2A16F630CA65AC964366773B2E7934 /* Optional+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924D298CDEFADFDAA3D8E718D60B773 /* Optional+Monoid.swift */; };
+		CD624895734B524DEBF4FB823EFFFB3F /* NaturalTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFAF118FB5B74D1EB254BE852F1E59 /* NaturalTransformation.swift */; };
+		D0C221F262270DA8D03CBBA32CF150F4 /* PointedCopointed+Functor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FBE5A866A4C21E614C2FA7A21D125 /* PointedCopointed+Functor.swift */; };
+		D44C09D537AF83EB4BED0EC989F47F1E /* LowerBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65F41BCA58518518F2270FA67B75D4 /* LowerBounded.swift */; };
+		DD6861A365AC5FABCC28FBAE3A97FF0D /* id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66753E02DDF2D3CA86CA11A47AE80151 /* id.swift */; };
+		E588D5AD38B4120B0A99B7A0FDC1CD8A /* Bool+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6E58C7FF23C6B2E44A2932DE80FE1 /* Bool+Monoid.swift */; };
+		EAD4030421C82E0DD4D4A6AFCAE10F88 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA10CD2CC28D35197CE62F807E80A14 /* Average.swift */; };
+		F35FA1420A1DF4DF7FA6F664242F1E7D /* Algebraic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BAF1B0E5B209C123555831FCE58FBC /* Algebraic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F520C65CD67FEAA1765724F02400A9B6 /* Set+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E59665520E8E8F028987BF85C43D4 /* Set+Monoid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,79 +64,87 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7A5EFAF1930961DE863479A14B48912;
+			remoteGlobalIDString = 8409C3A6647CFE02C43108C9311C7BAA;
 			remoteInfo = Algebraic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020DA97E7B377F10363397E21940D439 /* Sequence+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Monoid.swift"; sourceTree = "<group>"; };
-		068824259210A4790076CE00F02F1EA1 /* String+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Monoid.swift"; sourceTree = "<group>"; };
-		0A8B384FA3AB4B58BF11EA6310951373 /* Endo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Endo.swift; sourceTree = "<group>"; };
-		0C557820416AFD085BB72D83FB7642B9 /* All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
-		0C9450FF54BF731589F291539A0F791C /* Pods-Algebraic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Algebraic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F21139F208CCDD3E6D930F8F3BF85F5 /* None.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = None.swift; sourceTree = "<group>"; };
-		123ABCD412CB3F96E498B41E38A14556 /* Min.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
-		188DD5846101C3665FC50DACB8FB3D0F /* Pods-Algebraic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Example-frameworks.sh"; sourceTree = "<group>"; };
-		235DB4FDD7DD484196EA2D53F7CBF516 /* Pods-Algebraic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Example.release.xcconfig"; sourceTree = "<group>"; };
-		25C6B5F0CA07CB58EC43919FB0C8D3E8 /* Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monoid.swift; sourceTree = "<group>"; };
-		25FF80486E49278ADF7DB92CC78809D7 /* Array+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Monoid.swift"; sourceTree = "<group>"; };
-		285EBC4A40321DCB05745688FF053934 /* Pods-Algebraic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Algebraic_Tests-umbrella.h"; sourceTree = "<group>"; };
-		31BD33DB9E1C57218717939639CA18C8 /* Algebraic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Algebraic.modulemap; sourceTree = "<group>"; };
-		37FB498E6A509E7733C864D000D0B027 /* Pods-Algebraic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Algebraic_Example-dummy.m"; sourceTree = "<group>"; };
-		4469E1195F197BDC4FC078D95D184F5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45C2199A93903F6E68FA5A4CFCA6EC55 /* Algebraic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Algebraic-dummy.m"; sourceTree = "<group>"; };
-		4A965928F81B5A3779FDC8EA1D4C8CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BD4E3B0E2A71FBC58BF420F99A15E12 /* FuncM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FuncM.swift; sourceTree = "<group>"; };
-		5AE113F8BA2B3D27CECD963433CA846E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CA23FFF585DEA5D0574BC2490EC30E5 /* Copointed+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Copointed+Utils.swift"; sourceTree = "<group>"; };
-		5CEF164E93C3ACDE3EF4B38500F3B0E5 /* Pods-Algebraic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Algebraic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		63052753674E9B47B8BDC8E1F0DB1FE6 /* Pods_Algebraic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algebraic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		002191AFB152B5FAE8B7B1D3A087315C /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08D8EB8E018C5F29716857BB22401F02 /* Max.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
+		093808C95F9337BA8A666831FFEF0228 /* Pods-Algebraic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Algebraic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E2EE9495ED9E3F4025DB5CC30B56BF9 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		0EAB4C19486E094167EFC4BB7055D157 /* Array+Comparator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Comparator.swift"; sourceTree = "<group>"; };
+		1717172F5BA03BA0DB762F59A9E5E442 /* Pods-Algebraic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Algebraic_Example.modulemap"; sourceTree = "<group>"; };
+		1924D298CDEFADFDAA3D8E718D60B773 /* Optional+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Monoid.swift"; sourceTree = "<group>"; };
+		1A1F6F9776CBDC5D3963536DD5B02255 /* Copointed+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Copointed+Utils.swift"; sourceTree = "<group>"; };
+		1BC437C7737DCDF3FCCD9858B87F4A94 /* Sequence+Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Semigroup.swift"; sourceTree = "<group>"; };
+		25AB0DFEBA982028EAB747DF18B425FC /* Last.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Last.swift; sourceTree = "<group>"; };
+		2BA10CD2CC28D35197CE62F807E80A14 /* Average.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
+		311E2DC648777BC6DB689B9C52F2EEDE /* Algebraic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Algebraic-prefix.pch"; sourceTree = "<group>"; };
+		3236C9E9AA3C1657C35D72D826D2FD12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		34CB762456329AE2B46E62CC2A943701 /* Endo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Endo.swift; sourceTree = "<group>"; };
+		3A2A66FF8B171F23D9A98A719C71DF64 /* Shortest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		3A65F41BCA58518518F2270FA67B75D4 /* LowerBounded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LowerBounded.swift; sourceTree = "<group>"; };
+		41F0081D5F5B9D340939F66EA831188D /* Pods-Algebraic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Algebraic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4337174CA096017DCCC69B94D4F22AD6 /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		4C6BBA45153FFB99FDE8746B92A3679D /* Pods-Algebraic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Algebraic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C774DC0C9B4D9551FF60C7DABD4890A /* Pods-Algebraic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA9C22DC1FAAF646913156A070D1765 /* None.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = None.swift; sourceTree = "<group>"; };
+		5CCFAF118FB5B74D1EB254BE852F1E59 /* NaturalTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NaturalTransformation.swift; sourceTree = "<group>"; };
+		5F0ADFCB37CFC62C87C22C8BF22CB297 /* Sequence+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Monoid.swift"; sourceTree = "<group>"; };
+		60E7D2D1BE0FD7F2E6B3D49FEA91FB27 /* Array+Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Predicate.swift"; sourceTree = "<group>"; };
+		619E8668E3534C093AC0F551CFBB5C1E /* Pods-Algebraic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Example-frameworks.sh"; sourceTree = "<group>"; };
+		63052753674E9B47B8BDC8E1F0DB1FE6 /* Pods_Algebraic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Algebraic_Tests.framework; path = "Pods-Algebraic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6506D25FED4FD22115F8B17CE140B2E1 /* Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Semigroup.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68C3081479F4BFB92DC08EA552872C0C /* Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
-		6C1BEEE79CF790C19B723F508B6D1256 /* AnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyOf.swift; sourceTree = "<group>"; };
-		6E7577B9DDC429C0A482C93390E71065 /* Algebraic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Algebraic-prefix.pch"; sourceTree = "<group>"; };
-		771A20648D3414DDFF4C10561A3BC270 /* Pods-Algebraic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Example-resources.sh"; sourceTree = "<group>"; };
-		7C6EE8DEAFC01CC3D2186841DF638E7A /* Pods-Algebraic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Algebraic_Example.modulemap"; sourceTree = "<group>"; };
-		845747316929E91B6988039F5A78A664 /* Copointed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Copointed.swift; sourceTree = "<group>"; };
-		885BF1431B32CC12D4678ADF81E6010B /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		8A04E41EE9784E20713A6C0E2E1AE4D9 /* Sequence+FoldMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+FoldMap.swift"; sourceTree = "<group>"; };
-		8E0E32B61ECA93B9F62FAE7CC94173E0 /* Numeric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Numeric.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B81F7C25BC008A370D786C727EF2258 /* Algebraic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Algebraic-umbrella.h"; sourceTree = "<group>"; };
-		9FC4E0F60B1664F8CBC5FB35D9AFB983 /* Last.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Last.swift; sourceTree = "<group>"; };
-		A35FC8274F6723D7A666D99443871655 /* Pods-Algebraic_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Tests-resources.sh"; sourceTree = "<group>"; };
-		A3AB7748302251961B97E4CCE1BDCA1C /* Pods-Algebraic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Algebraic_Example-umbrella.h"; sourceTree = "<group>"; };
-		A5D2657B4DF3C5FC125E623C7BCFC1D3 /* Algebraic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Algebraic.xcconfig; sourceTree = "<group>"; };
-		ABD94B45D6C0C0D094305B2126314DAB /* Pods-Algebraic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC2263481EDF0F1900411525 /* Bool+Monoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+Monoid.swift"; sourceTree = "<group>"; };
-		AC22634A1EDF0F5700411525 /* Predicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
-		AC22634C1EDF0FE500411525 /* Array+Predicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Predicate.swift"; sourceTree = "<group>"; };
-		AC3188A81EE9F8FB0013B76C /* NaturalTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalTransformation.swift; sourceTree = "<group>"; };
-		AC459D581F2609A200DEE7FF /* Earliest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Earliest.swift; sourceTree = "<group>"; };
-		AC459D5D1F260DE300DEE7FF /* Latest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
-		AC459D5F1F260E0F00DEE7FF /* Shortest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
-		AC459D611F260E7000DEE7FF /* Longest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Longest.swift; sourceTree = "<group>"; };
-		AC4ED9151EDFF207000110BD /* Set+Monoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+Monoid.swift"; sourceTree = "<group>"; };
-		AC4ED9191EDFF529000110BD /* Array+Reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Reduce.swift"; sourceTree = "<group>"; };
-		AC68C5671EE17A0C00CE4D87 /* Average.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
-		ACEB6D2D1EE043C800C0D2DB /* Ordering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ordering.swift; sourceTree = "<group>"; };
-		ACEB6D2F1EE0445500C0D2DB /* Array+Comparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Comparator.swift"; sourceTree = "<group>"; };
-		BFAE5CD0A649F588A369B765A23F476C /* Pods_Algebraic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algebraic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2F7FB5D8713E618890879C3AD68C1BC /* Sequence+Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Semigroup.swift"; sourceTree = "<group>"; };
-		C6C8904EFAA6024E79FF889F66B21FD2 /* Max.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
-		CD3809145C06A29EDD869FB5AF1E477C /* Semigroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Semigroup.swift; sourceTree = "<group>"; };
-		CD6F85555E398C24882145AC5AE58D86 /* Algebraic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebraic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA0BB5DE1FEC9DC32DD18220BC7380B /* Pods-Algebraic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Algebraic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CFC4AAD09027FE54489986B13D28FA47 /* Pods-Algebraic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Algebraic_Tests.modulemap"; sourceTree = "<group>"; };
-		DC070BA148B96B953D15652085391F6A /* Pods-Algebraic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DDD44C7B351BA3B2DD9257C71CA519C0 /* Pods-Algebraic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Algebraic_Tests-dummy.m"; sourceTree = "<group>"; };
-		DE609406A47E6E7524D0B4C565F46598 /* Pods-Algebraic_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E025FF4B69D1DE0BD24903B88DB11C3C /* Pods-Algebraic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E46B1DEF696A6ECBECD8FFAEF72D2F90 /* Pointed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pointed.swift; sourceTree = "<group>"; };
-		F94C4A0390E878042C9FF650A46C9F00 /* id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = id.swift; sourceTree = "<group>"; };
-		FFB52921A6E9D53949E5E728F75E7B2E /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
-		FFDFF2C9464E9FE804BA4E21EA8A96D1 /* Pods-Algebraic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Algebraic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66753E02DDF2D3CA86CA11A47AE80151 /* id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = id.swift; sourceTree = "<group>"; };
+		6E00DFB550518B6E503DFE429C2A1873 /* Longest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Longest.swift; sourceTree = "<group>"; };
+		6EFEA04F4FB03031BF03965B148066E3 /* Pods-Algebraic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Algebraic_Example-dummy.m"; sourceTree = "<group>"; };
+		744DA83E54F4938DC17DB5F1E3018662 /* Earliest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Earliest.swift; sourceTree = "<group>"; };
+		7B3E59665520E8E8F028987BF85C43D4 /* Set+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Set+Monoid.swift"; sourceTree = "<group>"; };
+		860020E236F093FDC314E6F9B5B06AD8 /* FuncM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FuncM.swift; sourceTree = "<group>"; };
+		87B4148258F89A9569BC175666BF1385 /* Copointed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Copointed.swift; sourceTree = "<group>"; };
+		89FA00DCA7F273F14C7A6AECECBFA5E8 /* Pointed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pointed.swift; sourceTree = "<group>"; };
+		8B940485F8329A493B772AE8EE57679B /* Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		8E8C26BAA6EF8F02914607FC3C3AC3FE /* Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monoid.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D1C4D919443A33FB0FA5348BF446D0 /* Pods-Algebraic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Algebraic_Tests.modulemap"; sourceTree = "<group>"; };
+		96C45C3A070ED290AADDC65D741106C3 /* Pods-Algebraic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Algebraic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C06F188F8365CED0104870C707AC13C /* Pods-Algebraic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Algebraic_Tests-dummy.m"; sourceTree = "<group>"; };
+		9EE15120675B01ED054F130179754D7C /* Pods-Algebraic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Algebraic_Example-umbrella.h"; sourceTree = "<group>"; };
+		A03C090EE7469F0F2F728B05E415867D /* UpperBounded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpperBounded.swift; sourceTree = "<group>"; };
+		A9F8BDE7D1EE702A8D1003A2D39645E1 /* Algebraic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Algebraic.xcconfig; sourceTree = "<group>"; };
+		AD5D80B94EED82F511DA2C1990C572A6 /* Latest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
+		B5852B3D3C8CC606E45B63D5E63BF52B /* Array+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Monoid.swift"; sourceTree = "<group>"; };
+		B5D6E58C7FF23C6B2E44A2932DE80FE1 /* Bool+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+Monoid.swift"; sourceTree = "<group>"; };
+		B687B58EF02425730FE0B8E2900E3D20 /* Pods-Algebraic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F6078C53AC2B854BF4D0BA7588032F /* String+Monoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Monoid.swift"; sourceTree = "<group>"; };
+		BFAE5CD0A649F588A369B765A23F476C /* Pods_Algebraic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Algebraic_Example.framework; path = "Pods-Algebraic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFD7F9FD1746E308A4E534087B3DAC9 /* All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		C22B43BB37833F5AD6F03AEC5CE9428C /* AnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyOf.swift; sourceTree = "<group>"; };
+		C45FBE5A866A4C21E614C2FA7A21D125 /* PointedCopointed+Functor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PointedCopointed+Functor.swift"; sourceTree = "<group>"; };
+		C4FFAE76870AA92584CDF6C67DDEBB04 /* Sequence+FoldMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+FoldMap.swift"; sourceTree = "<group>"; };
+		C8BAF1B0E5B209C123555831FCE58FBC /* Algebraic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Algebraic-umbrella.h"; sourceTree = "<group>"; };
+		CA4925ED90E6EA907DAAF3E7EE1804FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB21CC4467316ABAEA762AF6DBD0AB53 /* Numeric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Numeric.swift; sourceTree = "<group>"; };
+		CB48C1722FBA58DF7A6C577E646E8A4D /* Min.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
+		CB8F425953CB72F60C6A7DBB820E8E72 /* Pods-Algebraic_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Tests-resources.sh"; sourceTree = "<group>"; };
+		CB9345DE9700B48CB40025354324CA61 /* Bounded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bounded.swift; sourceTree = "<group>"; };
+		CC4D472A16D92CE6E324B8055A601DF2 /* Algebraic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Algebraic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD1C5CB3E1D881019363BBD9D570B2AD /* Ordering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Ordering.swift; sourceTree = "<group>"; };
+		CD6F85555E398C24882145AC5AE58D86 /* Algebraic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Algebraic.framework; path = Algebraic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06F83EA5B9EE0814FA3C5C7EA2BA7CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E8AFE3275ECDAF8946480C9D7949C4 /* Algebraic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Algebraic.modulemap; sourceTree = "<group>"; };
+		D86EDE6FEC4DC11020D20520A4304ACD /* Pods-Algebraic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Example-resources.sh"; sourceTree = "<group>"; };
+		DCD67CA60EC047A443C4496061F268E7 /* Algebraic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Algebraic-dummy.m"; sourceTree = "<group>"; };
+		E6B010B73E2F9964135A1C001D839596 /* Array+Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Reduce.swift"; sourceTree = "<group>"; };
+		F5152A2D43C0F2F0A78DFCDE0C7CB08A /* Pods-Algebraic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Algebraic_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F79C8F3311503ECC14F2C0D20BBB1732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FB2345F4AAD5E977AB80C77CEDBEB090 /* Pods-Algebraic_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Algebraic_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FE2C128A479FB4F296F33D8E476AB8DB /* Pods-Algebraic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Algebraic_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FE5439E1FBDDFDC17C70504314FD46DC /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FEB4D92FB5B1A52404C24045EE6175F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,14 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		458744FF84B331AA9F12232013F68C0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B373217D0BCCE8046299E424F9B50ED /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46843450181F597C824BF6513C396CF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,89 +164,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D92986992F842E2D7B7922064DD32B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E02C1F66D3CAB67203FC6F62B0474 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A876550857740D53795C9DEADAD8D59 /* Protocols */ = {
+		164F425365353DFFC604F12C25DB6923 /* Monoids */ = {
 			isa = PBXGroup;
 			children = (
-				845747316929E91B6988039F5A78A664 /* Copointed.swift */,
-				25C6B5F0CA07CB58EC43919FB0C8D3E8 /* Monoid.swift */,
-				8E0E32B61ECA93B9F62FAE7CC94173E0 /* Numeric.swift */,
-				E46B1DEF696A6ECBECD8FFAEF72D2F90 /* Pointed.swift */,
-				CD3809145C06A29EDD869FB5AF1E477C /* Semigroup.swift */,
+				BFFD7F9FD1746E308A4E534087B3DAC9 /* All.swift */,
+				C22B43BB37833F5AD6F03AEC5CE9428C /* AnyOf.swift */,
+				B5852B3D3C8CC606E45B63D5E63BF52B /* Array+Monoid.swift */,
+				2BA10CD2CC28D35197CE62F807E80A14 /* Average.swift */,
+				B5D6E58C7FF23C6B2E44A2932DE80FE1 /* Bool+Monoid.swift */,
+				34CB762456329AE2B46E62CC2A943701 /* Endo.swift */,
+				860020E236F093FDC314E6F9B5B06AD8 /* FuncM.swift */,
+				6E00DFB550518B6E503DFE429C2A1873 /* Longest.swift */,
+				4EA9C22DC1FAAF646913156A070D1765 /* None.swift */,
+				1924D298CDEFADFDAA3D8E718D60B773 /* Optional+Monoid.swift */,
+				CD1C5CB3E1D881019363BBD9D570B2AD /* Ordering.swift */,
+				C45FBE5A866A4C21E614C2FA7A21D125 /* PointedCopointed+Functor.swift */,
+				0E2EE9495ED9E3F4025DB5CC30B56BF9 /* Predicate.swift */,
+				FE5439E1FBDDFDC17C70504314FD46DC /* Product.swift */,
+				7B3E59665520E8E8F028987BF85C43D4 /* Set+Monoid.swift */,
+				3A2A66FF8B171F23D9A98A719C71DF64 /* Shortest.swift */,
+				B9F6078C53AC2B854BF4D0BA7588032F /* String+Monoid.swift */,
+				8B940485F8329A493B772AE8EE57679B /* Sum.swift */,
 			);
-			path = Protocols;
+			name = Monoids;
+			path = Algebraic/Classes/Monoids;
 			sourceTree = "<group>";
 		};
-		522F25C665CFA56EFAEFA3C3F6A814A0 /* Development Pods */ = {
+		27A339B7B50DCD5625DE09705AADE686 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7E0661FA173F614C339BB5B1F552C1BA /* Algebraic */,
+				CC4D472A16D92CE6E324B8055A601DF2 /* Algebraic.podspec */,
+				F79C8F3311503ECC14F2C0D20BBB1732 /* LICENSE */,
+				3236C9E9AA3C1657C35D72D826D2FD12 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		6412E6CD16E07CA5CB766BAE0BAA6322 /* Classes */ = {
+		2C39BD30D698EE750D989E67CD1B41A7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				AC3188A71EE9F8D30013B76C /* Utils */,
-				885D3F84170CFFF8C4FB6E94A4C085BA /* Extensions */,
-				706E4936B37E1EB1349018878C745325 /* Functions */,
-				D571A86DCD8A29998076B15E3C8967BF /* Monoids */,
-				3A876550857740D53795C9DEADAD8D59 /* Protocols */,
+				CB9345DE9700B48CB40025354324CA61 /* Bounded.swift */,
+				87B4148258F89A9569BC175666BF1385 /* Copointed.swift */,
+				3A65F41BCA58518518F2270FA67B75D4 /* LowerBounded.swift */,
+				8E8C26BAA6EF8F02914607FC3C3AC3FE /* Monoid.swift */,
+				CB21CC4467316ABAEA762AF6DBD0AB53 /* Numeric.swift */,
+				89FA00DCA7F273F14C7A6AECECBFA5E8 /* Pointed.swift */,
+				6506D25FED4FD22115F8B17CE140B2E1 /* Semigroup.swift */,
+				A03C090EE7469F0F2F728B05E415867D /* UpperBounded.swift */,
 			);
-			path = Classes;
+			name = Protocols;
+			path = Algebraic/Classes/Protocols;
 			sourceTree = "<group>";
 		};
-		706E4936B37E1EB1349018878C745325 /* Functions */ = {
+		5DD4612108C1398E4A3B941DE95A77C9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F94C4A0390E878042C9FF650A46C9F00 /* id.swift */,
+				5CCFAF118FB5B74D1EB254BE852F1E59 /* NaturalTransformation.swift */,
 			);
-			path = Functions;
+			name = Utils;
+			path = Algebraic/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		60BC16B7FC82FE4715206AF628A14761 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB4C19486E094167EFC4BB7055D157 /* Array+Comparator.swift */,
+				60E7D2D1BE0FD7F2E6B3D49FEA91FB27 /* Array+Predicate.swift */,
+				E6B010B73E2F9964135A1C001D839596 /* Array+Reduce.swift */,
+				1A1F6F9776CBDC5D3963536DD5B02255 /* Copointed+Utils.swift */,
+				C4FFAE76870AA92584CDF6C67DDEBB04 /* Sequence+FoldMap.swift */,
+				5F0ADFCB37CFC62C87C22C8BF22CB297 /* Sequence+Monoid.swift */,
+				1BC437C7737DCDF3FCCD9858B87F4A94 /* Sequence+Semigroup.swift */,
+			);
+			name = Extensions;
+			path = Algebraic/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		79457CDC5447B929C7DC588AED706269 /* Pods-Algebraic_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4D92FB5B1A52404C24045EE6175F5 /* Info.plist */,
+				94D1C4D919443A33FB0FA5348BF446D0 /* Pods-Algebraic_Tests.modulemap */,
+				4C6BBA45153FFB99FDE8746B92A3679D /* Pods-Algebraic_Tests-acknowledgements.markdown */,
+				96C45C3A070ED290AADDC65D741106C3 /* Pods-Algebraic_Tests-acknowledgements.plist */,
+				9C06F188F8365CED0104870C707AC13C /* Pods-Algebraic_Tests-dummy.m */,
+				FB2345F4AAD5E977AB80C77CEDBEB090 /* Pods-Algebraic_Tests-frameworks.sh */,
+				CB8F425953CB72F60C6A7DBB820E8E72 /* Pods-Algebraic_Tests-resources.sh */,
+				F5152A2D43C0F2F0A78DFCDE0C7CB08A /* Pods-Algebraic_Tests-umbrella.h */,
+				4C774DC0C9B4D9551FF60C7DABD4890A /* Pods-Algebraic_Tests.debug.xcconfig */,
+				B687B58EF02425730FE0B8E2900E3D20 /* Pods-Algebraic_Tests.release.xcconfig */,
+			);
+			name = "Pods-Algebraic_Tests";
+			path = "Target Support Files/Pods-Algebraic_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				522F25C665CFA56EFAEFA3C3F6A814A0 /* Development Pods */,
+				ABBD6492D70344A5AD4AEA530ACC5DE0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9EB6DC2B12441B8B9C11E621B1E8723D /* Products */,
 				8933F713BA56ED821B3C517084783EDA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E0661FA173F614C339BB5B1F552C1BA /* Algebraic */ = {
-			isa = PBXGroup;
-			children = (
-				B4EB34843F30404810877DC497244C82 /* Algebraic */,
-				F1634988771AA83EB54D6589D761332E /* Support Files */,
-			);
-			name = Algebraic;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		885D3F84170CFFF8C4FB6E94A4C085BA /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				5CA23FFF585DEA5D0574BC2490EC30E5 /* Copointed+Utils.swift */,
-				8A04E41EE9784E20713A6C0E2E1AE4D9 /* Sequence+FoldMap.swift */,
-				020DA97E7B377F10363397E21940D439 /* Sequence+Monoid.swift */,
-				C2F7FB5D8713E618890879C3AD68C1BC /* Sequence+Semigroup.swift */,
-				AC22634C1EDF0FE500411525 /* Array+Predicate.swift */,
-				AC4ED9191EDFF529000110BD /* Array+Reduce.swift */,
-				ACEB6D2F1EE0445500C0D2DB /* Array+Comparator.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		8933F713BA56ED821B3C517084783EDA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC377486F996ED73C5DF50F13FB8D8F9 /* Pods-Algebraic_Example */,
-				C20BF33C227CC1C79F58858C46FD4CF6 /* Pods-Algebraic_Tests */,
+				FBB373CC1E3E0006DCF55A9301228241 /* Pods-Algebraic_Example */,
+				79457CDC5447B929C7DC588AED706269 /* Pods-Algebraic_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -256,20 +299,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC3188A71EE9F8D30013B76C /* Utils */ = {
+		ABBD6492D70344A5AD4AEA530ACC5DE0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC3188A81EE9F8FB0013B76C /* NaturalTransformation.swift */,
+				DCA68C77C0075A58089F3A41BBA78BB7 /* Algebraic */,
 			);
-			path = Utils;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B4EB34843F30404810877DC497244C82 /* Algebraic */ = {
+		ACAF635015C522363C773A72C0417202 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				6412E6CD16E07CA5CB766BAE0BAA6322 /* Classes */,
+				66753E02DDF2D3CA86CA11A47AE80151 /* id.swift */,
 			);
-			path = Algebraic;
+			name = Functions;
+			path = Algebraic/Classes/Functions;
+			sourceTree = "<group>";
+		};
+		AE39FA4A8C14B086D3763FB46606C333 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E8AFE3275ECDAF8946480C9D7949C4 /* Algebraic.modulemap */,
+				A9F8BDE7D1EE702A8D1003A2D39645E1 /* Algebraic.xcconfig */,
+				DCD67CA60EC047A443C4496061F268E7 /* Algebraic-dummy.m */,
+				311E2DC648777BC6DB689B9C52F2EEDE /* Algebraic-prefix.pch */,
+				C8BAF1B0E5B209C123555831FCE58FBC /* Algebraic-umbrella.h */,
+				CA4925ED90E6EA907DAAF3E7EE1804FF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Algebraic";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -280,22 +338,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C20BF33C227CC1C79F58858C46FD4CF6 /* Pods-Algebraic_Tests */ = {
+		C8CF1B9BBD5448F60E4CADEF6BAD709C /* Semigroups */ = {
 			isa = PBXGroup;
 			children = (
-				5AE113F8BA2B3D27CECD963433CA846E /* Info.plist */,
-				CFC4AAD09027FE54489986B13D28FA47 /* Pods-Algebraic_Tests.modulemap */,
-				FFDFF2C9464E9FE804BA4E21EA8A96D1 /* Pods-Algebraic_Tests-acknowledgements.markdown */,
-				0C9450FF54BF731589F291539A0F791C /* Pods-Algebraic_Tests-acknowledgements.plist */,
-				DDD44C7B351BA3B2DD9257C71CA519C0 /* Pods-Algebraic_Tests-dummy.m */,
-				DE609406A47E6E7524D0B4C565F46598 /* Pods-Algebraic_Tests-frameworks.sh */,
-				A35FC8274F6723D7A666D99443871655 /* Pods-Algebraic_Tests-resources.sh */,
-				285EBC4A40321DCB05745688FF053934 /* Pods-Algebraic_Tests-umbrella.h */,
-				ABD94B45D6C0C0D094305B2126314DAB /* Pods-Algebraic_Tests.debug.xcconfig */,
-				E025FF4B69D1DE0BD24903B88DB11C3C /* Pods-Algebraic_Tests.release.xcconfig */,
+				744DA83E54F4938DC17DB5F1E3018662 /* Earliest.swift */,
+				4337174CA096017DCCC69B94D4F22AD6 /* First.swift */,
+				25AB0DFEBA982028EAB747DF18B425FC /* Last.swift */,
+				AD5D80B94EED82F511DA2C1990C572A6 /* Latest.swift */,
+				08D8EB8E018C5F29716857BB22401F02 /* Max.swift */,
+				CB48C1722FBA58DF7A6C577E646E8A4D /* Min.swift */,
 			);
-			name = "Pods-Algebraic_Tests";
-			path = "Target Support Files/Pods-Algebraic_Tests";
+			name = Semigroups;
+			path = Algebraic/Classes/Semigroups;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -306,62 +360,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D571A86DCD8A29998076B15E3C8967BF /* Monoids */ = {
+		DCA68C77C0075A58089F3A41BBA78BB7 /* Algebraic */ = {
 			isa = PBXGroup;
 			children = (
-				0C557820416AFD085BB72D83FB7642B9 /* All.swift */,
-				6C1BEEE79CF790C19B723F508B6D1256 /* AnyOf.swift */,
-				AC68C5671EE17A0C00CE4D87 /* Average.swift */,
-				25FF80486E49278ADF7DB92CC78809D7 /* Array+Monoid.swift */,
-				0A8B384FA3AB4B58BF11EA6310951373 /* Endo.swift */,
-				FFB52921A6E9D53949E5E728F75E7B2E /* First.swift */,
-				4BD4E3B0E2A71FBC58BF420F99A15E12 /* FuncM.swift */,
-				9FC4E0F60B1664F8CBC5FB35D9AFB983 /* Last.swift */,
-				C6C8904EFAA6024E79FF889F66B21FD2 /* Max.swift */,
-				123ABCD412CB3F96E498B41E38A14556 /* Min.swift */,
-				0F21139F208CCDD3E6D930F8F3BF85F5 /* None.swift */,
-				885BF1431B32CC12D4678ADF81E6010B /* Product.swift */,
-				068824259210A4790076CE00F02F1EA1 /* String+Monoid.swift */,
-				68C3081479F4BFB92DC08EA552872C0C /* Sum.swift */,
-				AC2263481EDF0F1900411525 /* Bool+Monoid.swift */,
-				AC22634A1EDF0F5700411525 /* Predicate.swift */,
-				AC4ED9151EDFF207000110BD /* Set+Monoid.swift */,
-				ACEB6D2D1EE043C800C0D2DB /* Ordering.swift */,
-				AC459D581F2609A200DEE7FF /* Earliest.swift */,
-				AC459D5D1F260DE300DEE7FF /* Latest.swift */,
-				AC459D5F1F260E0F00DEE7FF /* Shortest.swift */,
-				AC459D611F260E7000DEE7FF /* Longest.swift */,
+				60BC16B7FC82FE4715206AF628A14761 /* Extensions */,
+				ACAF635015C522363C773A72C0417202 /* Functions */,
+				164F425365353DFFC604F12C25DB6923 /* Monoids */,
+				27A339B7B50DCD5625DE09705AADE686 /* Pod */,
+				2C39BD30D698EE750D989E67CD1B41A7 /* Protocols */,
+				C8CF1B9BBD5448F60E4CADEF6BAD709C /* Semigroups */,
+				AE39FA4A8C14B086D3763FB46606C333 /* Support Files */,
+				5DD4612108C1398E4A3B941DE95A77C9 /* Utils */,
 			);
-			path = Monoids;
+			name = Algebraic;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		F1634988771AA83EB54D6589D761332E /* Support Files */ = {
+		FBB373CC1E3E0006DCF55A9301228241 /* Pods-Algebraic_Example */ = {
 			isa = PBXGroup;
 			children = (
-				31BD33DB9E1C57218717939639CA18C8 /* Algebraic.modulemap */,
-				A5D2657B4DF3C5FC125E623C7BCFC1D3 /* Algebraic.xcconfig */,
-				45C2199A93903F6E68FA5A4CFCA6EC55 /* Algebraic-dummy.m */,
-				6E7577B9DDC429C0A482C93390E71065 /* Algebraic-prefix.pch */,
-				9B81F7C25BC008A370D786C727EF2258 /* Algebraic-umbrella.h */,
-				4469E1195F197BDC4FC078D95D184F5A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Algebraic";
-			sourceTree = "<group>";
-		};
-		FC377486F996ED73C5DF50F13FB8D8F9 /* Pods-Algebraic_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4A965928F81B5A3779FDC8EA1D4C8CC2 /* Info.plist */,
-				7C6EE8DEAFC01CC3D2186841DF638E7A /* Pods-Algebraic_Example.modulemap */,
-				CFA0BB5DE1FEC9DC32DD18220BC7380B /* Pods-Algebraic_Example-acknowledgements.markdown */,
-				5CEF164E93C3ACDE3EF4B38500F3B0E5 /* Pods-Algebraic_Example-acknowledgements.plist */,
-				37FB498E6A509E7733C864D000D0B027 /* Pods-Algebraic_Example-dummy.m */,
-				188DD5846101C3665FC50DACB8FB3D0F /* Pods-Algebraic_Example-frameworks.sh */,
-				771A20648D3414DDFF4C10561A3BC270 /* Pods-Algebraic_Example-resources.sh */,
-				A3AB7748302251961B97E4CCE1BDCA1C /* Pods-Algebraic_Example-umbrella.h */,
-				DC070BA148B96B953D15652085391F6A /* Pods-Algebraic_Example.debug.xcconfig */,
-				235DB4FDD7DD484196EA2D53F7CBF516 /* Pods-Algebraic_Example.release.xcconfig */,
+				D06F83EA5B9EE0814FA3C5C7EA2BA7CF /* Info.plist */,
+				1717172F5BA03BA0DB762F59A9E5E442 /* Pods-Algebraic_Example.modulemap */,
+				093808C95F9337BA8A666831FFEF0228 /* Pods-Algebraic_Example-acknowledgements.markdown */,
+				41F0081D5F5B9D340939F66EA831188D /* Pods-Algebraic_Example-acknowledgements.plist */,
+				6EFEA04F4FB03031BF03965B148066E3 /* Pods-Algebraic_Example-dummy.m */,
+				619E8668E3534C093AC0F551CFBB5C1E /* Pods-Algebraic_Example-frameworks.sh */,
+				D86EDE6FEC4DC11020D20520A4304ACD /* Pods-Algebraic_Example-resources.sh */,
+				9EE15120675B01ED054F130179754D7C /* Pods-Algebraic_Example-umbrella.h */,
+				002191AFB152B5FAE8B7B1D3A087315C /* Pods-Algebraic_Example.debug.xcconfig */,
+				FE2C128A479FB4F296F33D8E476AB8DB /* Pods-Algebraic_Example.release.xcconfig */,
 			);
 			name = "Pods-Algebraic_Example";
 			path = "Target Support Files/Pods-Algebraic_Example";
@@ -386,11 +413,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2039CDAD5237BF30F5E778B712835BB /* Headers */ = {
+		830ED23BD6E56CF2ED76EAEF2E0DD24F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E66A60A05D3ADB9EE6B190453D3F6C /* Algebraic-umbrella.h in Headers */,
+				F35FA1420A1DF4DF7FA6F664242F1E7D /* Algebraic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +441,23 @@
 			productReference = 63052753674E9B47B8BDC8E1F0DB1FE6 /* Pods_Algebraic_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8409C3A6647CFE02C43108C9311C7BAA /* Algebraic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB94AACEAD4211B80BA5925E90025D69 /* Build configuration list for PBXNativeTarget "Algebraic" */;
+			buildPhases = (
+				E5C6F8CB26E920CEDE9DEE480DCA0144 /* Sources */,
+				D92986992F842E2D7B7922064DD32B2A /* Frameworks */,
+				830ED23BD6E56CF2ED76EAEF2E0DD24F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algebraic;
+			productName = Algebraic;
+			productReference = CD6F85555E398C24882145AC5AE58D86 /* Algebraic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		AF8569FE01E616DFBFD27A52A6767BF8 /* Pods-Algebraic_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E58EF0DCB9A0060ED59CA1EFFF5045 /* Build configuration list for PBXNativeTarget "Pods-Algebraic_Example" */;
@@ -432,31 +476,14 @@
 			productReference = BFAE5CD0A649F588A369B765A23F476C /* Pods_Algebraic_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D7A5EFAF1930961DE863479A14B48912 /* Algebraic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 13DED9E15F6081B10404A0CC74C2F3A4 /* Build configuration list for PBXNativeTarget "Algebraic" */;
-			buildPhases = (
-				FDCBCE46891D9AB3AD118185DEBF2264 /* Sources */,
-				458744FF84B331AA9F12232013F68C0C /* Frameworks */,
-				E2039CDAD5237BF30F5E778B712835BB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Algebraic;
-			productName = Algebraic;
-			productReference = CD6F85555E398C24882145AC5AE58D86 /* Algebraic.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -470,7 +497,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7A5EFAF1930961DE863479A14B48912 /* Algebraic */,
+				8409C3A6647CFE02C43108C9311C7BAA /* Algebraic */,
 				AF8569FE01E616DFBFD27A52A6767BF8 /* Pods-Algebraic_Example */,
 				4695EB301C1F25D742A866C0CF2E7505 /* Pods-Algebraic_Tests */,
 			);
@@ -494,47 +521,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDCBCE46891D9AB3AD118185DEBF2264 /* Sources */ = {
+		E5C6F8CB26E920CEDE9DEE480DCA0144 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC2263491EDF0F1900411525 /* Bool+Monoid.swift in Sources */,
-				AC22634B1EDF0F5700411525 /* Predicate.swift in Sources */,
-				8D1436EC3651AD7F5AAFD86217482E06 /* Algebraic-dummy.m in Sources */,
-				AC68C5681EE17A0C00CE4D87 /* Average.swift in Sources */,
-				3A54F502FB6B020ECD684D16E27E096C /* All.swift in Sources */,
-				AC459D621F260E7000DEE7FF /* Longest.swift in Sources */,
-				3B027B2336833B0140399CBD3465CF8E /* AnyOf.swift in Sources */,
-				A0C3503CE8E76A60FA5AA75657CA6F8E /* Array+Monoid.swift in Sources */,
-				270A966A84C2BBAD1F4E797E4EF1312A /* Copointed+Utils.swift in Sources */,
-				AC459D591F2609A200DEE7FF /* Earliest.swift in Sources */,
-				358945281C01ACDA9B2C8703A22A6ABD /* Copointed.swift in Sources */,
-				373D771DB0C2024DED7ED0CE1C989CE8 /* Endo.swift in Sources */,
-				4789732B59E8D76E71F23AAA56995B5D /* First.swift in Sources */,
-				58FAF4AB72AB44202F8F52CDF06CCF9C /* FuncM.swift in Sources */,
-				AC4ED91A1EDFF529000110BD /* Array+Reduce.swift in Sources */,
-				42CEE2271D60413B387B8CE89B9D74A2 /* id.swift in Sources */,
-				987109EF5C53CD2A69EEA3B23C68B073 /* Last.swift in Sources */,
-				545A8792D119EA4D3DE9FE4C8B38FE5A /* Max.swift in Sources */,
-				050CA478C5F54F3E8DF4A36668BFCC4C /* Min.swift in Sources */,
-				AC3188A91EE9F8FB0013B76C /* NaturalTransformation.swift in Sources */,
-				F5DAEA656DC76CFEE9FFC5D7283453CD /* Monoid.swift in Sources */,
-				AC22634D1EDF0FE500411525 /* Array+Predicate.swift in Sources */,
-				A8E8169D930FA897154F101D1F857D99 /* None.swift in Sources */,
-				B5E0FC8D25A7736AAEE05AC4B9D17E38 /* Numeric.swift in Sources */,
-				73902CDFCBAE2D77FE45D22A1F7D0AE2 /* Pointed.swift in Sources */,
-				AC4ED9161EDFF207000110BD /* Set+Monoid.swift in Sources */,
-				B554A5E12941E0C9EC7C8D735A6B025A /* Product.swift in Sources */,
-				C6FB08EF2F62E2A276281B6A933DDCAF /* Semigroup.swift in Sources */,
-				ACEB6D301EE0445500C0D2DB /* Array+Comparator.swift in Sources */,
-				AC459D5E1F260DE300DEE7FF /* Latest.swift in Sources */,
-				818D744B17ECF2553AE7C5AD3610892D /* Sequence+FoldMap.swift in Sources */,
-				E990F919FA880A4320E3564B3C516C12 /* Sequence+Monoid.swift in Sources */,
-				F935A4665CD859593D98E72D3A9AEFF4 /* Sequence+Semigroup.swift in Sources */,
-				ACEB6D2E1EE043C800C0D2DB /* Ordering.swift in Sources */,
-				AC459D601F260E0F00DEE7FF /* Shortest.swift in Sources */,
-				FC3BBC6021DC44D2A2BC8E617BAFE6EA /* String+Monoid.swift in Sources */,
-				281F8DDC9EBA13906A9E250902DCB269 /* Sum.swift in Sources */,
+				46A61CE8225556E04CD7D8A2DCA51EA8 /* Algebraic-dummy.m in Sources */,
+				1782048C17B451DD15BF0E81593FA2CF /* All.swift in Sources */,
+				168FFA2D887B71BB217618499639B894 /* AnyOf.swift in Sources */,
+				0969486A1E0E29EF890ED749D27F683F /* Array+Comparator.swift in Sources */,
+				56A71D7EE262BB7DBB200DEC9276D64E /* Array+Monoid.swift in Sources */,
+				977DFB99774FADACC11FE74B3DA60676 /* Array+Predicate.swift in Sources */,
+				5BDC0456A361D65DC9AD204BAD50BF39 /* Array+Reduce.swift in Sources */,
+				EAD4030421C82E0DD4D4A6AFCAE10F88 /* Average.swift in Sources */,
+				E588D5AD38B4120B0A99B7A0FDC1CD8A /* Bool+Monoid.swift in Sources */,
+				40EADD5900EA4969CA9D0EE3542A5167 /* Bounded.swift in Sources */,
+				1631F451AF2C7A9DE598516F8B1E46DB /* Copointed+Utils.swift in Sources */,
+				5254EC15D9480DE7BF373A7483962F0D /* Copointed.swift in Sources */,
+				36156D8698EFEB657DDEBB8F0F4CEBA3 /* Earliest.swift in Sources */,
+				5B93DE8DDD8BB479A5C42BAF09D46967 /* Endo.swift in Sources */,
+				7E529050DB042609AF19FC917D9A8805 /* First.swift in Sources */,
+				CD1E759475CBB31DF3FCE0A65120C79B /* FuncM.swift in Sources */,
+				DD6861A365AC5FABCC28FBAE3A97FF0D /* id.swift in Sources */,
+				78B731C5D3BFBB26E7ACA402AB007674 /* Last.swift in Sources */,
+				143A2D176987BA46B832A2E5AFB282E3 /* Latest.swift in Sources */,
+				6260CD50E0CFD0122F7E7D42CBB87847 /* Longest.swift in Sources */,
+				D44C09D537AF83EB4BED0EC989F47F1E /* LowerBounded.swift in Sources */,
+				8D5D3F033FB22BF6ADD534A178A61054 /* Max.swift in Sources */,
+				BF92CB5E0D9C79A1540ABB84ACCD776A /* Min.swift in Sources */,
+				3F0E10C561C3D3D57346541170C8F0CB /* Monoid.swift in Sources */,
+				CD624895734B524DEBF4FB823EFFFB3F /* NaturalTransformation.swift in Sources */,
+				C1BF88EF83D26AB11D4B170E58A30F52 /* None.swift in Sources */,
+				616DE30348BDCA48156051E98A2EBAD9 /* Numeric.swift in Sources */,
+				CD2A16F630CA65AC964366773B2E7934 /* Optional+Monoid.swift in Sources */,
+				ABEF88A967528200895D3849CA35346F /* Ordering.swift in Sources */,
+				A1D4BC9B32C837CF2F6A82C1BE9DB7FF /* Pointed.swift in Sources */,
+				D0C221F262270DA8D03CBBA32CF150F4 /* PointedCopointed+Functor.swift in Sources */,
+				9CC6E60A8193D4811B2C4D686886538F /* Predicate.swift in Sources */,
+				1ED01EBC37819B18B7F86E248545A641 /* Product.swift in Sources */,
+				3589089026726FE74EE85A030FC4EBED /* Semigroup.swift in Sources */,
+				AD66D554FCA01723200FC6956E704110 /* Sequence+FoldMap.swift in Sources */,
+				3D385B62B6F4BA5CCD190557889F4A7F /* Sequence+Monoid.swift in Sources */,
+				10B7F186E628932D3F708817A1B5039A /* Sequence+Semigroup.swift in Sources */,
+				F520C65CD67FEAA1765724F02400A9B6 /* Set+Monoid.swift in Sources */,
+				88D609CF97C38B27160BCB3E6953DECE /* Shortest.swift in Sources */,
+				291287FF2CFB5903CC7761C9792E8F55 /* String+Monoid.swift in Sources */,
+				426AAECECBA8C9678FC887DD5135540D /* Sum.swift in Sources */,
+				03D9D030C065DA73EE2E08C163F395E5 /* UpperBounded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,45 +576,142 @@
 		098DAD6C13A4F9E81EF7FEC01E61D53A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Algebraic;
-			target = D7A5EFAF1930961DE863479A14B48912 /* Algebraic */;
+			target = 8409C3A6647CFE02C43108C9311C7BAA /* Algebraic */;
 			targetProxy = 26FBE36EA816E9A8D7454CB8CE4A38C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		1C0C6B5A7E4DC4031CA7DC6C90DAC300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002191AFB152B5FAE8B7B1D3A087315C /* Pods-Algebraic_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Algebraic_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Algebraic_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C3ED16E144B9A188CC88F2343EB3B4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		51F393FE91B4B6C835FB4B238187AD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -591,82 +720,42 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		41FDC6F717EE7C6B586780B2DA6456E2 /* Release */ = {
+		5AA813F6983D038E009A73EFF1129127 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 235DB4FDD7DD484196EA2D53F7CBF516 /* Pods-Algebraic_Example.release.xcconfig */;
+			baseConfigurationReference = B687B58EF02425730FE0B8E2900E3D20 /* Pods-Algebraic_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Algebraic_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Algebraic_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		638B80F5CBB61778BCE8FF0D72E86161 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD94B45D6C0C0D094305B2126314DAB /* Pods-Algebraic_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Algebraic_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -675,122 +764,62 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63D52F53A42FA70F027BDCDCB620D698 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D2657B4DF3C5FC125E623C7BCFC1D3 /* Algebraic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Algebraic/Algebraic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Algebraic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Algebraic/Algebraic.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Algebraic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		858224F3CC7558C8335DE07A5CB111D2 /* Debug */ = {
+		7991B4D3294F39CAF0E7D26DE6A1D395 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC070BA148B96B953D15652085391F6A /* Pods-Algebraic_Example.debug.xcconfig */;
+			baseConfigurationReference = A9F8BDE7D1EE702A8D1003A2D39645E1 /* Algebraic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Algebraic/Algebraic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Algebraic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Algebraic/Algebraic.modulemap";
+				PRODUCT_NAME = Algebraic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8ED7B3D38003C0B9E414127A62D4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2C128A479FB4F296F33D8E476AB8DB /* Pods-Algebraic_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Algebraic_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Algebraic_Example/Pods-Algebraic_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -798,72 +827,65 @@
 				PRODUCT_NAME = Pods_Algebraic_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C305BFD4FAD921F5FB0FBDFAC6617E88 /* Release */ = {
+		C780BB0819D877A84B67A2BE523B9AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D2657B4DF3C5FC125E623C7BCFC1D3 /* Algebraic.xcconfig */;
+			baseConfigurationReference = A9F8BDE7D1EE702A8D1003A2D39645E1 /* Algebraic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Algebraic/Algebraic-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Algebraic/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Algebraic/Algebraic.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Algebraic;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C57A36A0E1511013EE09816034DC7BBA /* Release */ = {
+		CA35183FC9E362890AAB348AA2CD3949 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E025FF4B69D1DE0BD24903B88DB11C3C /* Pods-Algebraic_Tests.release.xcconfig */;
+			baseConfigurationReference = 4C774DC0C9B4D9551FF60C7DABD4890A /* Pods-Algebraic_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Algebraic_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Algebraic_Tests/Pods-Algebraic_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -875,7 +897,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -883,17 +905,8 @@
 		03184701582CC4AEC8F9827B5A570263 /* Build configuration list for PBXNativeTarget "Pods-Algebraic_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				638B80F5CBB61778BCE8FF0D72E86161 /* Debug */,
-				C57A36A0E1511013EE09816034DC7BBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		13DED9E15F6081B10404A0CC74C2F3A4 /* Build configuration list for PBXNativeTarget "Algebraic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63D52F53A42FA70F027BDCDCB620D698 /* Debug */,
-				C305BFD4FAD921F5FB0FBDFAC6617E88 /* Release */,
+				CA35183FC9E362890AAB348AA2CD3949 /* Debug */,
+				5AA813F6983D038E009A73EFF1129127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -901,8 +914,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				51F393FE91B4B6C835FB4B238187AD09 /* Debug */,
+				1C3ED16E144B9A188CC88F2343EB3B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -910,8 +923,17 @@
 		B5E58EF0DCB9A0060ED59CA1EFFF5045 /* Build configuration list for PBXNativeTarget "Pods-Algebraic_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				858224F3CC7558C8335DE07A5CB111D2 /* Debug */,
-				41FDC6F717EE7C6B586780B2DA6456E2 /* Release */,
+				1C0C6B5A7E4DC4031CA7DC6C90DAC300 /* Debug */,
+				A8ED7B3D38003C0B9E414127A62D4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB94AACEAD4211B80BA5925E90025D69 /* Build configuration list for PBXNativeTarget "Algebraic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7991B4D3294F39CAF0E7D26DE6A1D395 /* Debug */,
+				C780BB0819D877A84B67A2BE523B9AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

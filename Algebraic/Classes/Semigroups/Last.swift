@@ -8,9 +8,9 @@
 
 import Foundation
 
-public struct Last<A: Equatable>: Equatable, Pointed, Copointed {
-	public let value: A?
-	public init(_ value: A?) {
+public struct Last<A: Equatable & Hashable>: Equatable, Pointed, Copointed {
+	public let value: A
+	public init(_ value: A) {
 		self.value = value
 	}
 }
@@ -18,15 +18,11 @@ public struct Last<A: Equatable>: Equatable, Pointed, Copointed {
 // MARK: Functor
 extension Last {
 	public func map<B>(_ f: (A) -> B) -> Last<B> {
-		return Last<B>(self.value.map(f))
+		return Last<B>(f(self.value))
 	}
 }
 
-extension Last: Monoid {
-	public static var empty: Last {
-		return Last(nil)
-	}
-	
+extension Last: Semigroup {
 	public static func <>(left: Last, right: Last) -> Last {
 		return right
 	}
@@ -38,12 +34,13 @@ public func == <A>(left: Last<A>, right: Last<A>) -> Bool {
 
 extension Last: Hashable {
 	public var hashValue: Int {
-		return "Last \(String(describing: value))".hashValue
+		return value.hashValue
 	}
 }
 
 extension Last: CustomStringConvertible {
 	public var description: String {
-		return "Last(\(String(describing: value)))"
+		return "Last(\(value))"
 	}
 }
+

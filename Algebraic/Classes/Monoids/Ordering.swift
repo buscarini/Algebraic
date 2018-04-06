@@ -54,6 +54,5 @@ extension FuncM where M == Ordering {
 		return FuncM { input in
 			return self.value(input).inverse
 		}
-		
 	}
 }
