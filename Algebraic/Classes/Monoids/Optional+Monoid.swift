@@ -8,13 +8,7 @@
 
 import Foundation
 
-// TODO: Implement this when possible in swift
-//extension Optional: Monoid where Wrapped: Semigroup {
-//
-//	
-//}
-
-extension Optional: Monoid {
+extension Optional: Monoid where Wrapped: Semigroup {
 	public static var empty: Optional {
 		return nil
 	}
@@ -29,8 +23,8 @@ extension Optional: Monoid {
 			case (.some(let leftVal), .some(let rightVal)):
 				return leftVal <> rightVal
 			
-			default:
-				fatalError("Compiler is dumb")
+//			default:
+//				fatalError("Compiler is dumb")
 		}
 	}
 	
@@ -45,8 +39,8 @@ extension Optional: Monoid {
 			case (.some, .some):
 				return left
 			
-			default:
-				fatalError("Compiler is dumb")
+//			default:
+//				fatalError("Compiler is dumb")
 		}
 	}
 }
