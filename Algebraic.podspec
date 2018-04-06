@@ -17,7 +17,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:buscarini/Algebraic.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'Algebraic/Classes/**/*'
+
+  s.swift_version = '4.0'
 
 end

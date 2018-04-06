@@ -24,12 +24,12 @@ class MinTests: XCTestCase {
 	
 	func testMin() {
 		
-		let value = Min.empty <> Min(2)
-		XCTAssertTrue( value.value == 2 )
+//		let value = Min.empty <> Min(2)
+//		XCTAssertTrue( value.value == 2 )
 		
-		XCTAssertTrue( (Min(7) <> Min(2)).value == 2 )
+		XCTAssertTrue( (Min(7) <> Min(2)).value == 2)
 		
-		XCTAssertTrue( Array(1...1000).foldMap(Min.init).value == 1 )
+		XCTAssertTrue( Array(1...1000).foldMap(Min.init, initial: Min(10000)).value == 1 )
 	}
 	
 }

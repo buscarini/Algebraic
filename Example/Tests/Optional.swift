@@ -1,18 +1,17 @@
 //
-//  Earliest.swift
+//  Optional.swift
 //  Algebraic
 //
 //  Created by José Manuel Sánchez Peñarroja on 24/7/17.
 //  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
-import Foundation
 
 import XCTest
 
 import Algebraic
 
-class EarliestTests: XCTestCase {
+class OptionalTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,16 +23,11 @@ class EarliestTests: XCTestCase {
         super.tearDown()
     }
     
-//   func testEarliest() {
-//	
-//		let date1 = Date(timeIntervalSince1970: 10)
-//		let date2 = Date(timeIntervalSince1970: 100)
-//	
-//		let value = Earliest.empty <> Earliest(date1)
-//		XCTAssertTrue( value.value == date1 )
-//	
-//		XCTAssertTrue( (Earliest(date1) <> Earliest(date2)).value == date1 )
-//		XCTAssertTrue( (Earliest(date2) <> Earliest(date1)).value == date1 )
-//	}
+   func testMax() {
+		typealias MaxMonoid<A: Comparable & Hashable> = Optional<Max<A>>
+	
+		let value = MaxMonoid.empty <> MaxMonoid(Max(2))
+		XCTAssertTrue( value?.value == 2 )
+	}
 }
 

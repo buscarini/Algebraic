@@ -24,13 +24,13 @@ class ShortestTests: XCTestCase {
         super.tearDown()
     }
     
-   func testShortest() {
-		
-		let value = Shortest.empty <> Shortest("blah")
-		XCTAssertTrue( value.value == "" )
-	
-		XCTAssertTrue( (Shortest("blah") <> Shortest("a")).value == "a" )
-		XCTAssertTrue( (Shortest("a") <> Shortest("blah")).value == "a" )
-	}
+//   func testShortest() {
+//		
+//		let value = ShortestMonoid.empty <> ShortestMonoid("blah")
+//		XCTAssertTrue( value.value == "" )
+//	
+//		XCTAssertTrue( (ShortestMonoid("blah") <> ShortestMonoid("a")).value == "a" )
+//		XCTAssertTrue( (ShortestMonoid("a") <> ShortestMonoid("blah")).value == "a" )
+//	}
 }
 
