@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Endo<A>: Pointed, Copointed {
+public struct Endo<A>: Copointed {
 	public let value: (A) -> A
 	public init(_ value: @escaping (A) -> A) {
 		self.value = value
