@@ -38,6 +38,14 @@ extension AnyOf: Hashable {
 	}
 }
 
+extension AnyOf: ExpressibleByBooleanLiteral {
+	public typealias BooleanLiteralType = Bool
+
+	public init(booleanLiteral value: BooleanLiteralType) {
+		self.init(value)
+	}
+}
+
 extension AnyOf: CustomStringConvertible {
 	public var description: String {
 		return "AnyOf(\(value))"

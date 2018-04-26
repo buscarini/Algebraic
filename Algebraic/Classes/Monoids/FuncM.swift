@@ -25,6 +25,13 @@ extension FuncM: Monoid {
 	}
 }
 
+// MARK: Contravariant Functor
+extension FuncM {
+	func contramap<B>(_ f: @escaping (B) -> A) -> FuncM<B, M> {
+		return FuncM<B, M>(f >>> self.value)
+	}
+}
+
 extension FuncM: CustomStringConvertible {
 	public var description: String {
 		return "FuncM"
