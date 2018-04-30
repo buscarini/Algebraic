@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Average<A: Numeric>: Pointed, Copointed{
+public struct Average<A: Numeric>: Pointed, Copointed, Hashable {
 	public let sumValues: A
 	public let numValues: A
 	
@@ -41,12 +41,6 @@ extension Average: Monoid {
 	
 	public static func <>(left: Average, right: Average) -> Average {
 		return Average(left.sumValues + right.sumValues, numValues: left.numValues + right.numValues)
-	}
-}
-
-extension Average: Hashable {
-	public var hashValue: Int {
-		return value.hashValue
 	}
 }
 

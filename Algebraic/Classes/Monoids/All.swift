@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct All: Pointed, Copointed {
+public struct All: Pointed, Copointed, Equatable, Hashable {
 	public let value: Bool
 	public init(_ value: Bool) {
 		self.value = value
@@ -33,9 +33,22 @@ extension All: Monoid {
 	}
 }
 
-extension All: Hashable {
-	public var hashValue: Int {
-		return value.hashValue
+extension All: RawRepresentable {
+	public var rawValue: Bool {
+		return self.value
+	}
+	
+	public typealias RawValue = Bool
+	
+	public init?(rawValue: RawValue) {
+		self.value = rawValue
+	}
+}
+extension All: ExpressibleByBooleanLiteral {
+	public typealias BooleanLiteralType = Bool
+
+	public init(booleanLiteral value: BooleanLiteralType) {
+		self.init(value)
 	}
 }
 

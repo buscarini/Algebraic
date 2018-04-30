@@ -9,7 +9,6 @@
 import Foundation
 
 
-
 public struct Max<A: Comparable & Hashable>: Pointed, Copointed {
 	public let value: A
 	public init(_ value: A) {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct AnyOf: Pointed, Copointed {
+public struct AnyOf: Pointed, Copointed, Equatable, Hashable {
 	public let value: Bool
 	public init(_ value: Bool) {
 		self.value = value
@@ -32,9 +32,15 @@ extension AnyOf: Monoid {
 	}
 }
 
-extension AnyOf: Hashable {
-	public var hashValue: Int {
-		return value.hashValue
+extension AnyOf: RawRepresentable {
+	public var rawValue: Bool {
+		return self.value
+	}
+	
+	public typealias RawValue = Bool
+	
+	public init?(rawValue: RawValue) {
+		self.value = rawValue
 	}
 }
 
