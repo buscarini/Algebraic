@@ -1,5 +1,5 @@
 //
-//  All.swift
+//  Any.swift
 //  Pods
 //
 //  Created by José Manuel Sánchez Peñarroja on 31/5/17.
@@ -9,11 +9,11 @@
 import Foundation
 
 extension Monoid {
-	public static var all: Monoid<Bool> {
+	public static var any: Monoid<Bool> {
 		Monoid<Bool>(
-			empty: true,
+			empty: false,
 			combine: { left, right in
-				left && right
+				left || right
 			}
 		)
 	}

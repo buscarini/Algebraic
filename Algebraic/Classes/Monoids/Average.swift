@@ -34,18 +34,22 @@ extension Average {
 	}
 }
 
-extension Average: Monoid {
-	public static var empty: Average {
-		return Average(A.zero, numValues: A.zero)
-	}
-	
-	public static func <>(left: Average, right: Average) -> Average {
-		return Average(left.sumValues + right.sumValues, numValues: left.numValues + right.numValues)
+extension Average {
+	public static var monoid: Monoid<Average> {
+		Monoid(
+			empty: Average(A.zero, numValues: A.zero),
+			combine: { left, right in
+				Average(
+					left.sumValues + right.sumValues,
+					numValues: left.numValues + right.numValues
+				)
+			}
+		)
 	}
 }
 
 extension Average: CustomStringConvertible {
 	public var description: String {
-		return "Average(\(value))"
+		"Average(\(value))"
 	}
 }

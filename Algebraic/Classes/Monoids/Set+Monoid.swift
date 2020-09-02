@@ -8,12 +8,14 @@
 
 import Foundation
 
-extension Set: Monoid {
-	public static var empty: Set {
-		return Set()
-	}
-	
-	public static func <>(left: Set, right: Set) -> Set {
-		return left.union(right)
+extension Set {
+	static var monoid: Monoid<Set> {
+		.init(
+			empty: Set(),
+			combine: { left, right in
+				left.union(right)
+			}
+		)
 	}
 }
+

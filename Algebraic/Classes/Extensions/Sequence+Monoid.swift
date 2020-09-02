@@ -8,12 +8,10 @@
 
 import Foundation
 
-public extension Sequence where Iterator.Element: Monoid {
-    public func reduced() -> Iterator.Element {
-        var result = Iterator.Element.empty
-        for el in self {
-            result = result <> el
-        }
-        return result
-    }
+public extension Sequence {
+	func reduced(
+		_ monoid: Monoid<Element>
+	) -> Element {
+		foldMap(id, monoid)
+	}
 }

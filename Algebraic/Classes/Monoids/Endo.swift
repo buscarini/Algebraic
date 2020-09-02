@@ -15,19 +15,16 @@ public struct Endo<A>: Copointed {
 	}
 }
 
-extension Endo: Monoid {
-	public static var empty: Endo {
-		return Endo(id)
-	}
-	
-	public static func <>(left: Endo, right: Endo) -> Endo {
-		return Endo { right.value(left.value($0)) }
+extension Endo {
+	public static var monoid: Monoid<Endo> {
+		Monoid(empty: Endo(id), combine: { left, right in
+			Endo { right.value(left.value($0)) }
+		})
 	}
 }
 
 extension Endo: CustomStringConvertible {
 	public var description: String {
-		return "Endo"
+		"Endo"
 	}
 }
-

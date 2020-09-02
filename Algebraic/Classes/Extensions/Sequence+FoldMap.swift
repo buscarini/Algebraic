@@ -9,16 +9,25 @@
 import Foundation
 
 public extension Sequence {
-	public func foldMap<S: Semigroup>(_ f: (Iterator.Element) -> S, initial: S) -> S {
-        var result = initial
-        for el in self {
-            result = result <> f(el)
-        }
-        return result
-    }
-
-    public func foldMap<M: Monoid>(_ f: (Iterator.Element) -> M) -> M {
-		return self.foldMap(f, initial: M.empty)
-    }
+	@inlinable
+	func foldMap<S>(
+		_ f: (Iterator.Element) -> S,
+		initial: S,
+		_ s: Semigroup<S>
+	) -> S {
+		var result = initial
+		for el in self {
+			result = s.combine(result, f(el))
+		}
+		return result
+	}
+	
+	@inlinable
+	func foldMap<M>(
+		_ f: (Iterator.Element) -> M,
+		_ m: Monoid<M>
+	) -> M {
+		self.foldMap(f, initial: m.empty, m.semigroup)
+	}
 }
 

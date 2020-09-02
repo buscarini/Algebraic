@@ -8,7 +8,10 @@
 
 import Foundation
 
-public typealias Longest = Max<String>
-
+extension String {
+	public static var longest: Semigroup<String> {
+		Semigroup.max
+	}
+}
 
 

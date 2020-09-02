@@ -10,7 +10,7 @@ import Foundation
 
 extension Array {
 	public func filtered(by predicate: Predicate<Element>) -> Array {
-		return self.filter(predicate.value >>> { $0.value })
+		self.filter(predicate.value)
 	}
 }
 

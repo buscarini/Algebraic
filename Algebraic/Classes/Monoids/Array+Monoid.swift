@@ -8,12 +8,13 @@
 
 import Foundation
 
-extension Array: Monoid {
-	public static var empty: [Element] {
-		return []
-	}
-	
-	public static func <>(left: Array, right: Array) -> Array {
-		return left + right
+extension Array {
+	public static var monoid: Monoid<Array> {
+		Monoid(
+			empty: [],
+			combine: { left, right in
+				left + right
+			}
+		)
 	}
 }

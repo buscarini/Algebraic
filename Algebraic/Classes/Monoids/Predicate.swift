@@ -8,16 +8,14 @@
 
 import Foundation
 
-public typealias Predicate<A> = FuncM<A, AnyOf>
+public typealias Predicate<A> = FuncM<A, Bool>
 
-extension FuncM where M == AnyOf {
+extension FuncM {
 	static func && <A>(_ left: Predicate<A>, _ right: Predicate<A>) -> Predicate<A> {
-		return Predicate<A>({ a in
-			return AnyOf(left.value(a).value && right.value(a).value)
-		})
+		Predicate<A>.monoid(Monoid<Bool>.all).combine(left, right)
 	}
 
 	static func || <A>(_ left: Predicate<A>, _ right: Predicate<A>) -> Predicate<A> {
-		return left <> right
+		Predicate<A>.monoid(Monoid<Bool>.any).combine(left, right)
 	}
 }

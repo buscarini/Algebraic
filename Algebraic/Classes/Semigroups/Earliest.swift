@@ -8,5 +8,8 @@
 
 import Foundation
 
-public typealias Earliest = Min<Date>
-
+extension Date {
+	public static var earliest: Semigroup<Date> {
+		Semigroup.min
+	}
+}

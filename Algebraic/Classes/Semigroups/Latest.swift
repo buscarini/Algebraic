@@ -8,4 +8,8 @@
 
 import Foundation
 
-public typealias Latest = Max<Date>
+extension Date {
+	public static var latest: Semigroup<Date> {
+		Semigroup.max
+	}
+}

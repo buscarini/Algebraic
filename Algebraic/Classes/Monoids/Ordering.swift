@@ -14,15 +14,18 @@ public enum Ordering {
 	case gt
 }
 
-extension Ordering: Monoid {
-	public static let empty = Ordering.eq
-	
-	public static func <>(left: Ordering, right: Ordering) -> Ordering {
-		switch (left, right) {
-			case (.lt, _): return .lt
-			case (.gt, _): return .gt
-			case (.eq, _): return right
-		}
+extension Ordering {
+	public static var monoid: Monoid<Ordering> {
+		Monoid(
+			empty: .eq,
+			combine: { left, right in
+				switch (left, right) {
+					case (.lt, _): return .lt
+					case (.gt, _): return .gt
+					case (.eq, _): return right
+				}
+			}
+		)
 	}
 }
 

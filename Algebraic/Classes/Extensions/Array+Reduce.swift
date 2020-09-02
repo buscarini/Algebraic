@@ -8,35 +8,39 @@
 
 import Foundation
 
-extension Array where Iterator.Element: Monoid {
-	public func parallelReduced() -> Iterator.Element {
-		guard count > 2 else { return self.reduced() }
+extension Array {
+	public func parallelReduced(
+		_ m: Monoid<Element>
+	) -> Element {
+		guard count > 2 else { return self.reduced(m) }
 		
 		let halfWay = count / 2
 		var results = Array<Element?>(repeating: nil, count: 2)
 		
 		DispatchQueue.concurrentPerform(iterations: 2) { i in
             let range = i == 0 ? startIndex..<halfWay : halfWay..<endIndex
-            results[i] = self[range].reduced()
+            results[i] = self[range].reduced(m)
         }
-        return results.lazy.map { $0! }.reduced()
+        return results.lazy.map { $0! }.reduced(m)
 	}
 }
 
 extension Array {
-	public func parallelFoldMap<M: Monoid>(_ f: (Iterator.Element) -> M) -> M {
-	
-		guard count > 2 else { return self.foldMap(f) }
+	public func parallelFoldMap<M>(
+		_ f: (Element) -> M,
+		_ m: Monoid<M>
+	) -> M {
+		guard count > 2 else { return self.foldMap(f, m) }
 		
 		let halfWay = count / 2
-		var results = [ M.empty, M.empty ]
+		var results = [ m.empty, m.empty ]
 		
 		DispatchQueue.concurrentPerform(iterations: 2) { i in
             let range = i == 0 ? startIndex..<halfWay : halfWay..<endIndex
 			
-            results[i] = self[range].foldMap(f)
+            results[i] = self[range].foldMap(f, m)
         }
 		
-        return results.lazy.map { $0 }.reduced()
+        return results.lazy.map { $0 }.reduced(m)
     }
 }

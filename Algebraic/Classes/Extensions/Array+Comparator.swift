@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension Array {
+extension Array {
 	public func sorted(by comparator: Comparator<Element>) -> Array {
 		return self.sorted { comparator.value(($0, $1)) == .lt }
 	}

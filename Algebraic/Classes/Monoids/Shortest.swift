@@ -8,6 +8,9 @@
 
 import Foundation
 
-public typealias Shortest = Min<String>
-
+extension String {
+	public static var shortest: Semigroup<String> {
+		Semigroup.min
+	}
+}
 

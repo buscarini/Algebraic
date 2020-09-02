@@ -8,12 +8,11 @@
 
 import Foundation
 
-public extension Sequence where Iterator.Element: Semigroup {
-    public func reduced(initial: Iterator.Element) -> Iterator.Element {
-        var result = initial
-        for el in self {
-            result = result <> el
-        }
-        return result
-    }
+public extension Sequence {
+	func reduced(
+		_ initial: Element,
+		_ semigroup: Semigroup<Element>
+	) -> Element {
+		foldMap(id, initial: initial, semigroup)
+	}
 }

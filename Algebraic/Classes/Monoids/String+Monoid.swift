@@ -8,12 +8,13 @@
 
 import Foundation
 
-extension String: Monoid {
-	public static var empty: String {
-		return ""
-	}
-	
-	public static func <>(left: String, right: String) -> String {
-		return left + right
+extension String {
+	public static var monoid: Monoid<String> {
+		Monoid(
+			empty: "",
+			combine: { left, right in
+				left + right
+			}
+		)
 	}
 }
