@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension Set {
-	static var monoid: Monoid<Set> {
+extension Set: Monoidal {
+	public static var monoid: Monoid<Set> {
 		.init(
 			empty: Set(),
 			combine: { left, right in

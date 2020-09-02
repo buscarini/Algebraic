@@ -15,7 +15,7 @@ public struct Endo<A>: Copointed {
 	}
 }
 
-extension Endo {
+extension Endo: Monoidal {
 	public static var monoid: Monoid<Endo> {
 		Monoid(empty: Endo(id), combine: { left, right in
 			Endo { right.value(left.value($0)) }

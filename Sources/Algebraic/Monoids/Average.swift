@@ -12,7 +12,7 @@ public struct Average<A: Numeric>: Pointed, Copointed, Hashable {
 	public let sumValues: A
 	public let numValues: A
 	
-	public init(_ value: A, numValues: A) {
+	public init(value: A, numValues: A) {
 		self.sumValues = value
 		self.numValues = numValues
 	}
@@ -34,13 +34,13 @@ extension Average {
 	}
 }
 
-extension Average {
+extension Average: Monoidal {
 	public static var monoid: Monoid<Average> {
 		Monoid(
-			empty: Average(A.zero, numValues: A.zero),
+			empty: Average(value: A.zero, numValues: A.zero),
 			combine: { left, right in
 				Average(
-					left.sumValues + right.sumValues,
+					value: left.sumValues + right.sumValues,
 					numValues: left.numValues + right.numValues
 				)
 		}

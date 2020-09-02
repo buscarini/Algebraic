@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+extension String: Monoidal {
 	public static var monoid: Monoid<String> {
 		Monoid(
 			empty: "",

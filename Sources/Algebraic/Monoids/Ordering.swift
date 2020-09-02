@@ -14,7 +14,7 @@ public enum Ordering {
 	case gt
 }
 
-extension Ordering {
+extension Ordering: Monoidal {
 	public static var monoid: Monoid<Ordering> {
 		Monoid(
 			empty: .eq,
