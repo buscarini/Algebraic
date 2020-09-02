@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "Algebraic"
-  s.version      = "0.1"
-  s.summary      = ""
+  s.version      = "0.2.0"
+  s.summary      = "Abstract algebra utilities"
   s.description  = <<-DESC
-    
+    Semigroup, Monoid, etc
   DESC
   s.homepage     = "https://github.com/buscarini/algebraic"
   s.license      = { :type => "MIT", :file => "LICENSE" }
