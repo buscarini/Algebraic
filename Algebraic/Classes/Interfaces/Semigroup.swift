@@ -29,3 +29,9 @@ public struct Semigroup<T> {
 		}
 	}
 }
+
+extension Semigroup {
+	public func combine(_ initial: T, _ items: T...) -> T {
+		items.reduced(initial, self)
+	}
+}

@@ -4,24 +4,13 @@ import XCTest
 import Algebraic
 
 class AllTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-	
     func testAllMonoid() {
-		XCTAssert(All.empty.value == true)
+		XCTAssertEqual(Monoid.all.empty, true)
 	
-		XCTAssert( (All(false) <> All(false)).value == false )
-		XCTAssert( (All(true) <> All(false)).value == false )
-		XCTAssert( (All(false) <> All(true)).value == false )
-		XCTAssert( (All(true) <> All(true)).value == true )
+		XCTAssertEqual(Monoid.all.combine(false, false), false)
+		XCTAssertEqual(Monoid.all.combine(true, false), false)
+		XCTAssertEqual(Monoid.all.combine(false, true), false)
+		XCTAssertEqual(Monoid.all.combine(true, true), true)
     }
 }
 

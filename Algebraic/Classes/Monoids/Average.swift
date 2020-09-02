@@ -21,7 +21,7 @@ public struct Average<A: Numeric>: Pointed, Copointed, Hashable {
 		self.sumValues = value
 		self.numValues = A.one
 	}
-
+	
 	public var value: A {
 		return sumValues/numValues
 	}
@@ -43,7 +43,7 @@ extension Average {
 					left.sumValues + right.sumValues,
 					numValues: left.numValues + right.numValues
 				)
-			}
+		}
 		)
 	}
 }
@@ -53,3 +53,20 @@ extension Average: CustomStringConvertible {
 		"Average(\(value))"
 	}
 }
+
+extension Average: ExpressibleByIntegerLiteral where A: ExpressibleByIntegerLiteral {
+	public typealias IntegerLiteralType = A.IntegerLiteralType
+	
+	public init(integerLiteral: IntegerLiteralType) {
+		self.init(A(integerLiteral: integerLiteral))
+	}
+}
+
+extension Average: ExpressibleByFloatLiteral where A: ExpressibleByFloatLiteral {
+	public typealias FloatLiteralType = A.FloatLiteralType
+	
+	public init(floatLiteral: FloatLiteralType) {
+		self.init(A(floatLiteral: floatLiteral))
+	}
+}
+

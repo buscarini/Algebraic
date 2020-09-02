@@ -11,43 +11,31 @@ import XCTest
 import Algebraic
 
 class MaxTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-   func testMaxInt() {
+	func testMaxInt() {
+		let s = Semigroup<Int>.max
 		
-//		let value = Max.empty <> Max(2)
-//		XCTAssertTrue( value.value == 2 )
-	
-		XCTAssertTrue( (Max(7) <> Max(2)).value == 7 )
-	
-		XCTAssertTrue( Array(1...1000).foldMap(Max.init, initial: Max(0)).value == 1000 )
-	
-	
-		XCTAssertTrue( (Max("blah") <> Max("b")).value == "blah" )
+		XCTAssertEqual(s.combine(7, 2), 7)
+		
+		XCTAssertEqual(Array(1...1000).reduced(0, s), 1000)
+		
+		XCTAssertEqual(Semigroup<String>.max.combine("blah", "b"), "blah")
 	}
 	
 	func testMaxString() {
-	
-		let value = Max<String>.empty <> Max("b")
-		XCTAssertTrue( value.value == "b" )
-	
-		XCTAssertTrue( (Max("blah") <> Max("b")).value == "blah" )
+		let m = Monoid<String>.max
+		
+		let value = m.combine(m.empty, "b")
+		
+		XCTAssertEqual(value, "b")
+		XCTAssertEqual(m.combine("blah", "b"), "blah")
 	}
 	
 	func testMaxDate() {
 		let date1 = Date(timeIntervalSince1970: 10)
 		let date2 = Date(timeIntervalSince1970: 100)
-
-		XCTAssertTrue( (Max(date1) <> Max(date2)).value == date2 )
+		let s = Semigroup<Date>.max
+		
+		XCTAssertEqual(s.combine(date1, date2), date2)
 	}
 }
 

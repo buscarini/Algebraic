@@ -10,26 +10,10 @@ import XCTest
 
 import Algebraic
 
-class MinTests: XCTestCase {
-	
-	override func setUp() {
-		super.setUp()
-		// Put setup code here. This method is called before the invocation of each test method in the class.
-	}
-	
-	override func tearDown() {
-		// Put teardown code here. This method is called after the invocation of each test method in the class.
-		super.tearDown()
-	}
-	
+class MinTests: XCTestCase {	
 	func testMin() {
+		XCTAssertEqual(Monoid<Int>.min.combine(7, 2), 2)
 		
-//		let value = Min.empty <> Min(2)
-//		XCTAssertTrue( value.value == 2 )
-		
-		XCTAssertTrue( (Min(7) <> Min(2)).value == 2)
-		
-		XCTAssertTrue( Array(1...1000).foldMap(Min.init, initial: Min(10000)).value == 1 )
+		XCTAssertEqual(Array(1...1000).reduced(Monoid<Int>.min), 1)
 	}
-	
 }

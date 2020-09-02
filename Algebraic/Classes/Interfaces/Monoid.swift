@@ -25,3 +25,9 @@ public struct Monoid<T> {
 		self.init(empty: empty, semigroup: Semigroup<T>.init(combine: combine))
 	}
 }
+
+extension Monoid {
+	public func combine(_ items: T...) -> T {
+		items.reduced(self)
+	}
+}

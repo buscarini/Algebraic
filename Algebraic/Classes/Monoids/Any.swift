@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Monoid {
+extension Monoid where T == Bool {
 	public static var any: Monoid<Bool> {
 		Monoid<Bool>(
 			empty: false,

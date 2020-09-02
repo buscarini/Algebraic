@@ -12,22 +12,11 @@ import XCTest
 import Algebraic
 
 class OptionalTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
    func testMax() {
-		typealias MaxMonoid<A: Comparable & Hashable> = Optional<Max<A>>
+		let monoid = Semigroup<Int>.max.lift()
 	
-		let value = MaxMonoid.empty <> MaxMonoid(Max(2))
-		XCTAssertTrue( value?.value == 2 )
+		XCTAssertEqual(monoid.combine(monoid.empty, 2), 2)
+		XCTAssertNil(monoid.combine(monoid.empty, nil))
 	}
 }
 

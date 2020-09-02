@@ -16,8 +16,10 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.0",
+    "osx": "10.10"
   },
   "source_files": "Algebraic/Classes/**/*",
+  "swift_versions": "4.0",
   "swift_version": "4.0"
 }

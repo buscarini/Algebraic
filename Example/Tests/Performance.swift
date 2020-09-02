@@ -11,48 +11,45 @@ import XCTest
 import Algebraic
 
 class PerformanceTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-	
 	func testFoldMap() {
-        self.measure {
-			XCTAssertTrue(Array(1...100000).foldMap(Sum.init).value == 5000050000)
-        }
-    }
-	
-	func testParallelFoldMap() {
-        self.measure {
-			XCTAssertTrue(Array(1...100000).parallelFoldMap(Sum.init).value == 5000050000)
-        }
-    }
-	
-	func testReduce() {
-		let values = Array(1...100000).map(Sum.init)
-	
+		let strings = Array(1...100000).map(String.init)
 		self.measure {
-			XCTAssertTrue(values.reduced().value == 5000050000)
+			XCTAssertEqual(
+				strings
+				.foldMap({ Int($0)! }, Monoid.sum),
+				5000050000
+			)
 		}
 	}
 	
-    func testParallelReduce() {
-		let values = Array(1...100000).map(Sum.init)
+	func testParallelFoldMap() {
+		let strings = Array(1...100000).map(String.init)
+		self.measure {
+			XCTAssertEqual(
+				strings
+				.parallelFoldMap({ Int($0)! }, Monoid.sum),
+				5000050000
+			)
+		}
+		
+		self.measure {
+			XCTAssertEqual(Array(1...100000)
+				.parallelReduced(Monoid.sum), 5000050000)
+		}
+	}
 	
-        self.measure {
-			XCTAssertTrue(values.parallelReduced().value == 5000050000)
-        }
-    }
-    
+	func testReduce() {
+		self.measure {
+			XCTAssertEqual(Array(1...100000)
+				.reduced(Monoid.sum), 5000050000)
+		}
+	}
+	
+	func testParallelReduce() {
+		self.measure {
+			XCTAssertEqual(Array(1...100000)
+				.parallelReduced(Monoid.sum), 5000050000)
+		}
+	}
+	
 }

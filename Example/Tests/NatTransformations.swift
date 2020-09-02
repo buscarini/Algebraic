@@ -10,10 +10,9 @@ import XCTest
 import Algebraic
 
 class NatTransformations: XCTestCase {
-
-    func testSumToMax() {
-		let source = Sum<UInt>(3)
-		let value: Max<UInt> = transform(source)
-		XCTAssertTrue( (value <> Max<UInt>(1)).value == 3)
-    }
+//	func testSumToMax() {
+//		let source = Sum<UInt>(3)
+//		let value: Max<UInt> = transform(source)
+//		XCTAssertTrue( (value <> Max<UInt>(1)).value == 3)
+//	}
 }

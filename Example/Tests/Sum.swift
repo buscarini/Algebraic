@@ -10,25 +10,13 @@ import XCTest
 
 import Algebraic
 
-class SumTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-	
-	typealias USum = Sum<UInt>
-	
-    func testSum() {
-		XCTAssertTrue( (Sum(1) <> Sum(2) ).value == 3 )
+class SumTests: XCTestCase {	
+	func testSum() {
+		let sum = Monoid<Int>.sum
+		let usum = Monoid<UInt>.sum
 		
-		XCTAssertTrue( (USum(1) <> USum(2) ).value == 3 )
-    }
-	
+		XCTAssertEqual(sum.combine(1, 2), 3)
+		XCTAssertEqual(usum.combine(1, 2), 3)
+	}
 }
 

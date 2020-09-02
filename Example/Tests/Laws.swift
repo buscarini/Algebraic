@@ -12,16 +12,20 @@ import Algebraic
 class LawsTests: XCTestCase {
 
 	func testAllMonoid() {
-		XCTAssertTrue((All.empty <> All(true)).value)
-		XCTAssertTrue((All(true) <> All.empty).value)
-		XCTAssertTrue(!(All.empty <> All(false)).value)
-		XCTAssertTrue(!(All(false) <> All.empty ).value)
+		let all = Monoid<Bool>.all
+		
+		XCTAssertTrue(all.combine(all.empty, true))
+		XCTAssertTrue(all.combine(true, all.empty))
+		XCTAssertTrue(all.combine(!all.empty, false))
+		XCTAssertTrue(all.combine(!false, all.empty))
 	
-	
-		XCTAssert( (All(false) <> All(false)) <> All(true) == All(false) <> (All(false) <> All(true)) )
-	
-		// TODO: See how to generate all the combinations
-
+		XCTAssertEqual(
+			all.combine(
+				false, false, true
+			),
+			all.combine(
+				false, false, true
+			)
+		)
 	}
-
 }
