@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Algebraic::AlgebraicPackageTests::ProductTarget" /* AlgebraicPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_137 /* Build configuration list for PBXAggregateTarget "AlgebraicPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_140 /* PBXTargetDependency */,
+			);
+			name = AlgebraicPackageTests;
+			productName = AlgebraicPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* Pointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Pointed.swift */; };
+		OBJ_101 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Semigroup.swift */; };
+		OBJ_102 /* UpperBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* UpperBounded.swift */; };
+		OBJ_103 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* All.swift */; };
+		OBJ_104 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Any.swift */; };
+		OBJ_105 /* Array+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Array+Monoid.swift */; };
+		OBJ_106 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Average.swift */; };
+		OBJ_107 /* Endo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Endo.swift */; };
+		OBJ_108 /* FuncM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* FuncM.swift */; };
+		OBJ_109 /* Longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Longest.swift */; };
+		OBJ_110 /* None.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* None.swift */; };
+		OBJ_111 /* Optional+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Optional+Monoid.swift */; };
+		OBJ_112 /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Ordering.swift */; };
+		OBJ_113 /* PointedCopointed+Functor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* PointedCopointed+Functor.swift */; };
+		OBJ_114 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Predicate.swift */; };
+		OBJ_115 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Product.swift */; };
+		OBJ_116 /* Set+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Set+Monoid.swift */; };
+		OBJ_117 /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Shortest.swift */; };
+		OBJ_118 /* String+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* String+Monoid.swift */; };
+		OBJ_119 /* String+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* String+Predicate.swift */; };
+		OBJ_120 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Sum.swift */; };
+		OBJ_121 /* Earliest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Earliest.swift */; };
+		OBJ_122 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* First.swift */; };
+		OBJ_123 /* Last.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Last.swift */; };
+		OBJ_124 /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Latest.swift */; };
+		OBJ_125 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Max.swift */; };
+		OBJ_126 /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Min.swift */; };
+		OBJ_127 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Composition.swift */; };
+		OBJ_128 /* NaturalTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* NaturalTransformation.swift */; };
+		OBJ_135 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_146 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* All.swift */; };
+		OBJ_147 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Average.swift */; };
+		OBJ_148 /* Earliest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Earliest.swift */; };
+		OBJ_149 /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Latest.swift */; };
+		OBJ_150 /* Laws.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Laws.swift */; };
+		OBJ_151 /* Longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* Longest.swift */; };
+		OBJ_152 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Max.swift */; };
+		OBJ_153 /* Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Min.swift */; };
+		OBJ_154 /* NatTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* NatTransformations.swift */; };
+		OBJ_155 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Optional.swift */; };
+		OBJ_156 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Performance.swift */; };
+		OBJ_157 /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Shortest.swift */; };
+		OBJ_158 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Sum.swift */; };
+		OBJ_160 /* Algebraic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Algebraic::Algebraic::Product" /* Algebraic.framework */; };
+		OBJ_86 /* Array+Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Array+Comparator.swift */; };
+		OBJ_87 /* Array+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Array+Predicate.swift */; };
+		OBJ_88 /* Array+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Array+Reduce.swift */; };
+		OBJ_89 /* Copointed+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Copointed+Utils.swift */; };
+		OBJ_90 /* Optional+Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Optional+Zip.swift */; };
+		OBJ_91 /* Sequence+FoldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Sequence+FoldMap.swift */; };
+		OBJ_92 /* Sequence+Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Sequence+Monoid.swift */; };
+		OBJ_93 /* Sequence+Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Sequence+Semigroup.swift */; };
+		OBJ_94 /* id.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* id.swift */; };
+		OBJ_95 /* Bounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Bounded.swift */; };
+		OBJ_96 /* Copointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Copointed.swift */; };
+		OBJ_97 /* LowerBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* LowerBounded.swift */; };
+		OBJ_98 /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Monoid.swift */; };
+		OBJ_99 /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Numeric.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC27C10D24FFBCCE00888E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Algebraic::Algebraic";
+			remoteInfo = Algebraic;
+		};
+		AC27C10E24FFBCE500888E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Algebraic::AlgebraicTests";
+			remoteInfo = AlgebraicTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC27C10F24FFBECF00888E16 /* Algebraic-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Algebraic-Package.xctestplan"; path = "Algebraic.xcodeproj/Algebraic-Package.xctestplan"; sourceTree = "<group>"; };
+		"Algebraic::Algebraic::Product" /* Algebraic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Algebraic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Algebraic::AlgebraicTests::Product" /* AlgebraicTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Array+Comparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Comparator.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* Array+Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Predicate.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* Array+Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Reduce.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* Copointed+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copointed+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* Optional+Zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Zip.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* Sequence+FoldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+FoldMap.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* Sequence+Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Monoid.swift"; sourceTree = "<group>"; };
+		OBJ_17 /* Sequence+Semigroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Semigroup.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = id.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Bounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounded.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Copointed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copointed.swift; sourceTree = "<group>"; };
+		OBJ_23 /* LowerBounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerBounded.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monoid.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numeric.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Pointed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pointed.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Semigroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semigroup.swift; sourceTree = "<group>"; };
+		OBJ_28 /* UpperBounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperBounded.swift; sourceTree = "<group>"; };
+		OBJ_30 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Array+Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Monoid.swift"; sourceTree = "<group>"; };
+		OBJ_33 /* Average.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Endo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endo.swift; sourceTree = "<group>"; };
+		OBJ_35 /* FuncM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncM.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Longest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest.swift; sourceTree = "<group>"; };
+		OBJ_37 /* None.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = None.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Optional+Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Monoid.swift"; sourceTree = "<group>"; };
+		OBJ_39 /* Ordering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ordering.swift; sourceTree = "<group>"; };
+		OBJ_40 /* PointedCopointed+Functor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointedCopointed+Functor.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		OBJ_42 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Set+Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Monoid.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* Shortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		OBJ_45 /* String+Monoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Monoid.swift"; sourceTree = "<group>"; };
+		OBJ_46 /* String+Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Predicate.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Earliest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earliest.swift; sourceTree = "<group>"; };
+		OBJ_50 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Last.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Latest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		OBJ_57 /* NaturalTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalTransformation.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Average.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
+		OBJ_62 /* Earliest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earliest.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Latest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Laws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laws.swift; sourceTree = "<group>"; };
+		OBJ_65 /* Longest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest.swift; sourceTree = "<group>"; };
+		OBJ_66 /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Min.swift; sourceTree = "<group>"; };
+		OBJ_68 /* NatTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatTransformations.swift; sourceTree = "<group>"; };
+		OBJ_69 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		OBJ_70 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Shortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		OBJ_72 /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		OBJ_76 /* old */ = {isa = PBXFileReference; lastKnownFileType = folder; path = old; sourceTree = SOURCE_ROOT; };
+		OBJ_77 /* Configs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configs; sourceTree = SOURCE_ROOT; };
+		OBJ_78 /* Algebraic.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Algebraic.podspec; sourceTree = "<group>"; };
+		OBJ_79 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_160 /* Algebraic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_18 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* id.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* Bounded.swift */,
+				OBJ_22 /* Copointed.swift */,
+				OBJ_23 /* LowerBounded.swift */,
+				OBJ_24 /* Monoid.swift */,
+				OBJ_25 /* Numeric.swift */,
+				OBJ_26 /* Pointed.swift */,
+				OBJ_27 /* Semigroup.swift */,
+				OBJ_28 /* UpperBounded.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		OBJ_29 /* Monoids */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* All.swift */,
+				OBJ_31 /* Any.swift */,
+				OBJ_32 /* Array+Monoid.swift */,
+				OBJ_33 /* Average.swift */,
+				OBJ_34 /* Endo.swift */,
+				OBJ_35 /* FuncM.swift */,
+				OBJ_36 /* Longest.swift */,
+				OBJ_37 /* None.swift */,
+				OBJ_38 /* Optional+Monoid.swift */,
+				OBJ_39 /* Ordering.swift */,
+				OBJ_40 /* PointedCopointed+Functor.swift */,
+				OBJ_41 /* Predicate.swift */,
+				OBJ_42 /* Product.swift */,
+				OBJ_43 /* Set+Monoid.swift */,
+				OBJ_44 /* Shortest.swift */,
+				OBJ_45 /* String+Monoid.swift */,
+				OBJ_46 /* String+Predicate.swift */,
+				OBJ_47 /* Sum.swift */,
+			);
+			path = Monoids;
+			sourceTree = "<group>";
+		};
+		OBJ_48 /* Semigroups */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_49 /* Earliest.swift */,
+				OBJ_50 /* First.swift */,
+				OBJ_51 /* Last.swift */,
+				OBJ_52 /* Latest.swift */,
+				OBJ_53 /* Max.swift */,
+				OBJ_54 /* Min.swift */,
+			);
+			path = Semigroups;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				AC27C10F24FFBECF00888E16 /* Algebraic-Package.xctestplan */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_58 /* Tests */,
+				OBJ_73 /* Products */,
+				OBJ_76 /* old */,
+				OBJ_77 /* Configs */,
+				OBJ_78 /* Algebraic.podspec */,
+				OBJ_79 /* LICENSE */,
+				OBJ_80 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_56 /* Composition.swift */,
+				OBJ_57 /* NaturalTransformation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_58 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_59 /* AlgebraicTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_59 /* AlgebraicTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_60 /* All.swift */,
+				OBJ_61 /* Average.swift */,
+				OBJ_62 /* Earliest.swift */,
+				OBJ_63 /* Latest.swift */,
+				OBJ_64 /* Laws.swift */,
+				OBJ_65 /* Longest.swift */,
+				OBJ_66 /* Max.swift */,
+				OBJ_67 /* Min.swift */,
+				OBJ_68 /* NatTransformations.swift */,
+				OBJ_69 /* Optional.swift */,
+				OBJ_70 /* Performance.swift */,
+				OBJ_71 /* Shortest.swift */,
+				OBJ_72 /* Sum.swift */,
+			);
+			name = AlgebraicTests;
+			path = Tests/AlgebraicTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Algebraic */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Algebraic::Algebraic::Product" /* Algebraic.framework */,
+				"Algebraic::AlgebraicTests::Product" /* AlgebraicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_8 /* Algebraic */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Extensions */,
+				OBJ_18 /* Functions */,
+				OBJ_20 /* Interfaces */,
+				OBJ_29 /* Monoids */,
+				OBJ_48 /* Semigroups */,
+				OBJ_55 /* Utils */,
+			);
+			name = Algebraic;
+			path = Sources/Algebraic;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Array+Comparator.swift */,
+				OBJ_11 /* Array+Predicate.swift */,
+				OBJ_12 /* Array+Reduce.swift */,
+				OBJ_13 /* Copointed+Utils.swift */,
+				OBJ_14 /* Optional+Zip.swift */,
+				OBJ_15 /* Sequence+FoldMap.swift */,
+				OBJ_16 /* Sequence+Monoid.swift */,
+				OBJ_17 /* Sequence+Semigroup.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Algebraic::Algebraic" /* Algebraic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "Algebraic" */;
+			buildPhases = (
+				OBJ_85 /* Sources */,
+				OBJ_129 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algebraic;
+			productName = Algebraic;
+			productReference = "Algebraic::Algebraic::Product" /* Algebraic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Algebraic::AlgebraicTests" /* AlgebraicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_142 /* Build configuration list for PBXNativeTarget "AlgebraicTests" */;
+			buildPhases = (
+				OBJ_145 /* Sources */,
+				OBJ_159 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_161 /* PBXTargetDependency */,
+			);
+			name = AlgebraicTests;
+			productName = AlgebraicTests;
+			productReference = "Algebraic::AlgebraicTests::Product" /* AlgebraicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Algebraic::SwiftPMPackageDescription" /* AlgebraicPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_131 /* Build configuration list for PBXNativeTarget "AlgebraicPackageDescription" */;
+			buildPhases = (
+				OBJ_134 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgebraicPackageDescription;
+			productName = AlgebraicPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Algebraic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Algebraic::Algebraic" /* Algebraic */,
+				"Algebraic::SwiftPMPackageDescription" /* AlgebraicPackageDescription */,
+				"Algebraic::AlgebraicPackageTests::ProductTarget" /* AlgebraicPackageTests */,
+				"Algebraic::AlgebraicTests" /* AlgebraicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_135 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_146 /* All.swift in Sources */,
+				OBJ_147 /* Average.swift in Sources */,
+				OBJ_148 /* Earliest.swift in Sources */,
+				OBJ_149 /* Latest.swift in Sources */,
+				OBJ_150 /* Laws.swift in Sources */,
+				OBJ_151 /* Longest.swift in Sources */,
+				OBJ_152 /* Max.swift in Sources */,
+				OBJ_153 /* Min.swift in Sources */,
+				OBJ_154 /* NatTransformations.swift in Sources */,
+				OBJ_155 /* Optional.swift in Sources */,
+				OBJ_156 /* Performance.swift in Sources */,
+				OBJ_157 /* Shortest.swift in Sources */,
+				OBJ_158 /* Sum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_86 /* Array+Comparator.swift in Sources */,
+				OBJ_87 /* Array+Predicate.swift in Sources */,
+				OBJ_88 /* Array+Reduce.swift in Sources */,
+				OBJ_89 /* Copointed+Utils.swift in Sources */,
+				OBJ_90 /* Optional+Zip.swift in Sources */,
+				OBJ_91 /* Sequence+FoldMap.swift in Sources */,
+				OBJ_92 /* Sequence+Monoid.swift in Sources */,
+				OBJ_93 /* Sequence+Semigroup.swift in Sources */,
+				OBJ_94 /* id.swift in Sources */,
+				OBJ_95 /* Bounded.swift in Sources */,
+				OBJ_96 /* Copointed.swift in Sources */,
+				OBJ_97 /* LowerBounded.swift in Sources */,
+				OBJ_98 /* Monoid.swift in Sources */,
+				OBJ_99 /* Numeric.swift in Sources */,
+				OBJ_100 /* Pointed.swift in Sources */,
+				OBJ_101 /* Semigroup.swift in Sources */,
+				OBJ_102 /* UpperBounded.swift in Sources */,
+				OBJ_103 /* All.swift in Sources */,
+				OBJ_104 /* Any.swift in Sources */,
+				OBJ_105 /* Array+Monoid.swift in Sources */,
+				OBJ_106 /* Average.swift in Sources */,
+				OBJ_107 /* Endo.swift in Sources */,
+				OBJ_108 /* FuncM.swift in Sources */,
+				OBJ_109 /* Longest.swift in Sources */,
+				OBJ_110 /* None.swift in Sources */,
+				OBJ_111 /* Optional+Monoid.swift in Sources */,
+				OBJ_112 /* Ordering.swift in Sources */,
+				OBJ_113 /* PointedCopointed+Functor.swift in Sources */,
+				OBJ_114 /* Predicate.swift in Sources */,
+				OBJ_115 /* Product.swift in Sources */,
+				OBJ_116 /* Set+Monoid.swift in Sources */,
+				OBJ_117 /* Shortest.swift in Sources */,
+				OBJ_118 /* String+Monoid.swift in Sources */,
+				OBJ_119 /* String+Predicate.swift in Sources */,
+				OBJ_120 /* Sum.swift in Sources */,
+				OBJ_121 /* Earliest.swift in Sources */,
+				OBJ_122 /* First.swift in Sources */,
+				OBJ_123 /* Last.swift in Sources */,
+				OBJ_124 /* Latest.swift in Sources */,
+				OBJ_125 /* Max.swift in Sources */,
+				OBJ_126 /* Min.swift in Sources */,
+				OBJ_127 /* Composition.swift in Sources */,
+				OBJ_128 /* NaturalTransformation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Algebraic::AlgebraicTests" /* AlgebraicTests */;
+			targetProxy = AC27C10E24FFBCE500888E16 /* PBXContainerItemProxy */;
+		};
+		OBJ_161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Algebraic::Algebraic" /* Algebraic */;
+			targetProxy = AC27C10D24FFBCCE00888E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.0.0";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.0.0";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Algebraic.xcodeproj/AlgebraicTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = AlgebraicTests;
+			};
+			name = Debug;
+		};
+		OBJ_144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Algebraic.xcodeproj/AlgebraicTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = AlgebraicTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Algebraic.xcodeproj/Algebraic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Algebraic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Algebraic;
+			};
+			name = Debug;
+		};
+		OBJ_84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Algebraic.xcodeproj/Algebraic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Algebraic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Algebraic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_131 /* Build configuration list for PBXNativeTarget "AlgebraicPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_132 /* Debug */,
+				OBJ_133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_137 /* Build configuration list for PBXAggregateTarget "AlgebraicPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_138 /* Debug */,
+				OBJ_139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_142 /* Build configuration list for PBXNativeTarget "AlgebraicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_143 /* Debug */,
+				OBJ_144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Algebraic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_82 /* Build configuration list for PBXNativeTarget "Algebraic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

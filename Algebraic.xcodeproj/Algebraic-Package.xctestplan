@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "C1A4A1A9-571C-4068-B92B-040E5C8261C6",
+      "name" : "Configuration 1",
+      "options" : {
+        "addressSanitizer" : {
+          "enabled" : false
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "addressSanitizer" : {
+      "detectStackUseAfterReturn" : true,
+      "enabled" : true
+    },
+    "threadSanitizerEnabled" : true,
+    "undefinedBehaviorSanitizerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Algebraic.xcodeproj",
+        "identifier" : "Algebraic::AlgebraicTests",
+        "name" : "AlgebraicTests"
+      }
+    }
+  ],
+  "version" : 1
+}
