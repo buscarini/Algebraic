@@ -29,5 +29,19 @@ public extension Sequence {
 	) -> M {
 		self.foldMap(f, initial: m.empty, m.semigroup)
 	}
+	
+	@inlinable
+	func foldMap<M: Monoidal & Pointed>(
+		_ m: M.Type
+	) -> M where M.A == Iterator.Element {
+		self.foldMap(M.init(_:), M.monoid)
+	}
+	
+	@inlinable
+	func foldMap<M: Monoidal & Pointed & Copointed>(
+		_ m: M.Type
+	) -> M.A where M.A == Iterator.Element {
+		self.foldMap(M.init(_:), M.monoid).value
+	}
 }
 

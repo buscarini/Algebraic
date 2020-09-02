@@ -19,5 +19,13 @@ class AverageTests: XCTestCase {
 		
 		XCTAssertEqual(Average<Double>.monoid.combine(1, 2).value, 1.5)
 	}
+	
+	func testAverageFoldMap() {
+		XCTAssertEqual(
+			[2, 4]
+				.foldMap(Average<Int>.self),
+			3
+		)
+	}
 }
 

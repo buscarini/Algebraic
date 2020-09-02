@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AC27C11424FFC70200888E16 /* Monoidal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27C11324FFC70200888E16 /* Monoidal.swift */; };
 		OBJ_100 /* Pointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Pointed.swift */; };
 		OBJ_101 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Semigroup.swift */; };
 		OBJ_102 /* UpperBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* UpperBounded.swift */; };
@@ -100,6 +101,7 @@
 
 /* Begin PBXFileReference section */
 		AC27C10F24FFBECF00888E16 /* Algebraic-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Algebraic-Package.xctestplan"; path = "Algebraic.xcodeproj/Algebraic-Package.xctestplan"; sourceTree = "<group>"; };
+		AC27C11324FFC70200888E16 /* Monoidal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monoidal.swift; sourceTree = "<group>"; };
 		"Algebraic::Algebraic::Product" /* Algebraic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Algebraic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Algebraic::AlgebraicTests::Product" /* AlgebraicTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Array+Comparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Comparator.swift"; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				OBJ_24 /* Monoid.swift */,
 				OBJ_25 /* Numeric.swift */,
 				OBJ_26 /* Pointed.swift */,
+				AC27C11324FFC70200888E16 /* Monoidal.swift */,
 				OBJ_27 /* Semigroup.swift */,
 				OBJ_28 /* UpperBounded.swift */,
 			);
@@ -246,7 +249,7 @@
 			path = Semigroups;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				AC27C10F24FFBECF00888E16 /* Algebraic-Package.xctestplan */,
@@ -260,7 +263,6 @@
 				OBJ_79 /* LICENSE */,
 				OBJ_80 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_55 /* Utils */ = {
@@ -413,7 +415,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -475,6 +477,7 @@
 				OBJ_99 /* Numeric.swift in Sources */,
 				OBJ_100 /* Pointed.swift in Sources */,
 				OBJ_101 /* Semigroup.swift in Sources */,
+				AC27C11424FFC70200888E16 /* Monoidal.swift in Sources */,
 				OBJ_102 /* UpperBounded.swift in Sources */,
 				OBJ_103 /* All.swift in Sources */,
 				OBJ_104 /* Any.swift in Sources */,

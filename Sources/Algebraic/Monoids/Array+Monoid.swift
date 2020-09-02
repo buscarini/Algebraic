@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Array {
+extension Array: Monoidal {
 	public static var monoid: Monoid<Array> {
 		Monoid(
 			empty: [],
