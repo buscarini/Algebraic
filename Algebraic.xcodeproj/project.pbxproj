@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		AC27C11424FFC70200888E16 /* Monoidal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27C11324FFC70200888E16 /* Monoidal.swift */; };
+		ACCA15A825024BC100090A50 /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA15A725024BC100090A50 /* Func.swift */; };
+		ACCA15AA25024C0800090A50 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA15A925024C0800090A50 /* Semiring.swift */; };
 		OBJ_100 /* Pointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Pointed.swift */; };
 		OBJ_101 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Semigroup.swift */; };
 		OBJ_102 /* UpperBounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* UpperBounded.swift */; };
@@ -102,6 +104,8 @@
 /* Begin PBXFileReference section */
 		AC27C10F24FFBECF00888E16 /* Algebraic-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Algebraic-Package.xctestplan"; path = "Algebraic.xcodeproj/Algebraic-Package.xctestplan"; sourceTree = "<group>"; };
 		AC27C11324FFC70200888E16 /* Monoidal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monoidal.swift; sourceTree = "<group>"; };
+		ACCA15A725024BC100090A50 /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
+		ACCA15A925024C0800090A50 /* Semiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semiring.swift; sourceTree = "<group>"; };
 		"Algebraic::Algebraic::Product" /* Algebraic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Algebraic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Algebraic::AlgebraicTests::Product" /* AlgebraicTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgebraicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Array+Comparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Comparator.swift"; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 				AC27C11324FFC70200888E16 /* Monoidal.swift */,
 				OBJ_27 /* Semigroup.swift */,
 				OBJ_28 /* UpperBounded.swift */,
+				ACCA15A925024C0800090A50 /* Semiring.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				OBJ_33 /* Average.swift */,
 				OBJ_34 /* Endo.swift */,
 				OBJ_35 /* FuncM.swift */,
+				ACCA15A725024BC100090A50 /* Func.swift */,
 				OBJ_36 /* Longest.swift */,
 				OBJ_37 /* None.swift */,
 				OBJ_38 /* Optional+Monoid.swift */,
@@ -468,6 +474,7 @@
 				OBJ_90 /* Optional+Zip.swift in Sources */,
 				OBJ_91 /* Sequence+FoldMap.swift in Sources */,
 				OBJ_92 /* Sequence+Monoid.swift in Sources */,
+				ACCA15AA25024C0800090A50 /* Semiring.swift in Sources */,
 				OBJ_93 /* Sequence+Semigroup.swift in Sources */,
 				OBJ_94 /* id.swift in Sources */,
 				OBJ_95 /* Bounded.swift in Sources */,
@@ -500,6 +507,7 @@
 				OBJ_121 /* Earliest.swift in Sources */,
 				OBJ_122 /* First.swift in Sources */,
 				OBJ_123 /* Last.swift in Sources */,
+				ACCA15A825024BC100090A50 /* Func.swift in Sources */,
 				OBJ_124 /* Latest.swift in Sources */,
 				OBJ_125 /* Max.swift in Sources */,
 				OBJ_126 /* Min.swift in Sources */,
