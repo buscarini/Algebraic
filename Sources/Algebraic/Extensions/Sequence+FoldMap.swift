@@ -8,9 +8,9 @@
 
 import Foundation
 
-public extension Sequence {
+extension Sequence {
 	@inlinable
-	func foldMap<S>(
+	public func foldMap<S>(
 		_ f: (Iterator.Element) -> S,
 		initial: S,
 		_ s: Semigroup<S>
@@ -23,7 +23,7 @@ public extension Sequence {
 	}
 	
 	@inlinable
-	func foldMap<M>(
+	public func foldMap<M>(
 		_ f: (Iterator.Element) -> M,
 		_ m: Monoid<M>
 	) -> M {
@@ -31,14 +31,14 @@ public extension Sequence {
 	}
 	
 	@inlinable
-	func foldMap<M: Monoidal & Pointed>(
+	public func foldMap<M: Monoidal & Pointed>(
 		_ m: M.Type
 	) -> M where M.A == Iterator.Element {
 		self.foldMap(M.init(_:), M.monoid)
 	}
 	
 	@inlinable
-	func foldMap<M: Monoidal & Pointed & Copointed>(
+	public func foldMap<M: Monoidal & Pointed & Copointed>(
 		_ m: M.Type
 	) -> M.A where M.A == Iterator.Element {
 		self.foldMap(M.init(_:), M.monoid).value

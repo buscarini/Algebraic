@@ -59,3 +59,31 @@ extension FuncM where M == Ordering {
 		}
 	}
 }
+
+extension Ordering {
+	public static func from<T: Comparable>(
+		_ left: T,
+		_ right: T
+	) -> Ordering {
+		if left < right {
+			return .lt
+		}
+		else if right < left {
+			return .gt
+		}
+		else {
+			return .eq
+		}
+	}
+	
+	public var isAscending: Bool {
+		switch self {
+		case .lt:
+			return true
+		case .eq:
+			return true
+		case .gt:
+			return false
+		}
+	}
+}

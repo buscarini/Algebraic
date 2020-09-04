@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Semigroup where T: Comparable & Hashable {
+extension Semigroup where T: Comparable {
 	public static var max: Semigroup {
 		Semigroup { left, right in
 			Swift.max(left, right)
@@ -16,7 +16,7 @@ extension Semigroup where T: Comparable & Hashable {
 	}
 }
 
-extension Monoid where T: Comparable & Hashable & LowerBounded {
+extension Monoid where T: Comparable & LowerBounded {
 	public static var max: Monoid {
 		Monoid(
 			empty: T.minValue,

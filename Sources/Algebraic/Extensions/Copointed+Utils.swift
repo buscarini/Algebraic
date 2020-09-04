@@ -9,9 +9,9 @@
 import Foundation
 
 public func == <P: Copointed>(left: P, right: P) -> Bool where P.A: Equatable {
-	return left.value == right.value
+	left.value == right.value
 }
 
 public func < <P: Copointed> (left: P,right: P) -> Bool where P.A: Comparable {
-	return left.value < right.value
+	left.value < right.value
 }
