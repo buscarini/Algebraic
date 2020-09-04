@@ -8,8 +8,8 @@
 
 import Foundation
 
-public extension Sequence {
-	func reduced(
+extension Sequence {
+	public func reduced(
 		_ monoid: Monoid<Element>
 	) -> Element {
 		foldMap(id, monoid)
