@@ -10,3 +10,13 @@ import Foundation
 public protocol Monoidal {
 	static var monoid: Monoid<Self> { get }
 }
+
+extension Monoidal {
+	func combine(_ other: Self) -> Self {
+		Self.monoid.combine(self, other)
+	}
+	
+	func combine(_ otherItems: Self...) -> Self {
+		([self] + otherItems).reduced(Self.monoid)
+	}
+}

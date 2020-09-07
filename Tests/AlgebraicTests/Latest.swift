@@ -13,27 +13,20 @@ import XCTest
 import Algebraic
 
 class LatestTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-//   func testLatest() {
-//	
-//		let date1 = Date(timeIntervalSince1970: 10)
-//		let date2 = Date(timeIntervalSince1970: 100)
-//	
-//		let value = Latest.empty <> Latest(date1)
-//		XCTAssertTrue( value.value == date1 )
-//	
-//		XCTAssertTrue( (Latest(date1) <> Latest(date2)).value == date2 )
-//		XCTAssertTrue( (Latest(date2) <> Latest(date1)).value == date2 )
-//	}
+   func testLatest() {
+		let latest = Date.latest
+		
+		latest.test(
+			Date(timeIntervalSince1970: 10),
+			Date(timeIntervalSince1970: 15),
+			Date(timeIntervalSince1970: 100)
+		)
+	
+		let date1 = Date(timeIntervalSince1970: 10)
+		let date2 = Date(timeIntervalSince1970: 100)
+		
+		XCTAssertTrue(latest.combine(date1, date2) == date2 )
+		XCTAssertTrue(latest.combine(date2, date1) == date2 )
+	}
 }
 

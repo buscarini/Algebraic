@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Average<A: Numeric>: Pointed, Copointed, Hashable {
+public struct Average<A: Numeric>: Pointed, Equatable, Hashable {
 	public let sumValues: A
 	public let numValues: A
 	
@@ -22,7 +22,11 @@ public struct Average<A: Numeric>: Pointed, Copointed, Hashable {
 		self.numValues = A.one
 	}
 	
-	public var value: A {
+	public var value: A? {
+		guard numValues != A.zero else {
+			return nil
+		}
+		
 		return sumValues/numValues
 	}
 }
@@ -50,7 +54,8 @@ extension Average: Monoidal {
 
 extension Average: CustomStringConvertible {
 	public var description: String {
-		"Average(\(value))"
+		let str = value.map { "\($0)" } ?? "-"
+		return "Average(\(str))"
 	}
 }
 

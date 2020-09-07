@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Algebraic.xcodeproj/Algebraic-Package.xctestplan"
+            reference = "container:Configs/Algebraic-Package.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

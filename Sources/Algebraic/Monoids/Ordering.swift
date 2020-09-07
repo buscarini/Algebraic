@@ -46,16 +46,16 @@ public typealias Comparator<A> = FuncM<(A, A), Ordering>
 
 extension Comparable {
 	public static func comparator() -> Comparator<Self> {
-		return Comparator.init { lhs, rhs in
+		Comparator.init { lhs, rhs in
 			lhs < rhs ? .lt : lhs > rhs ? .gt : .eq
 		}
 	}
 }
 
 extension FuncM where M == Ordering {
-	func reversed() -> FuncM {
-		return FuncM { input in
-			return self.value(input).inverse
+	public func reversed() -> FuncM {
+		FuncM { input in
+			self.value(input).inverse
 		}
 	}
 }

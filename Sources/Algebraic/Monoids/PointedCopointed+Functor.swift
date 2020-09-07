@@ -8,7 +8,9 @@
 
 import Foundation
 
-public func map<F: Copointed, G: Pointed>(_ box: F, _ f: (F.A) -> G.A) -> G {
-	return G(f(box.value))
+public func map<F: Copointed, G: Pointed>(
+	_ box: F,
+	_ f: (F.A) -> G.A
+) -> G {
+	G(f(box.value))
 }
-

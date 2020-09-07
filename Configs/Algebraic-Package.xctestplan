@@ -1,27 +1,19 @@
 {
   "configurations" : [
     {
-      "id" : "C1A4A1A9-571C-4068-B92B-040E5C8261C6",
+      "id" : "D145C2F6-F3D2-4D8F-8A16-D1CB36611D09",
       "name" : "Configuration 1",
       "options" : {
-        "addressSanitizer" : {
-          "enabled" : false
-        }
+
       }
     }
   ],
   "defaultOptions" : {
-    "addressSanitizer" : {
-      "detectStackUseAfterReturn" : true,
-      "enabled" : true
-    },
-    "testExecutionOrdering" : "random",
     "threadSanitizerEnabled" : true,
     "undefinedBehaviorSanitizerEnabled" : true
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:Algebraic.xcodeproj",
         "identifier" : "Algebraic::AlgebraicTests",

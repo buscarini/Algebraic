@@ -13,24 +13,13 @@ import XCTest
 import Algebraic
 
 class LongestTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-//   func testLongest() {
-//		
-//		let value = LongestMonoid.empty <> LongestMonoid("blah")
-//		XCTAssertTrue( value.value == "blah" )
-//	
-//		XCTAssertTrue( (LongestMonoid("blah") <> LongestMonoid("a")).value == "blah" )
-//		XCTAssertTrue( (LongestMonoid("a") <> LongestMonoid("blah")).value == "blah" )
-//	}
+   func testLongest() {
+		let m = String.longest
+		
+		m.test("a", "blah", "b")
+		
+		XCTAssertEqual(m.combine("a", "blah"), "blah")
+		XCTAssertEqual(m.combine("blah", "a"), "blah")
+	}
 }
 
