@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Algebraic"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary      = "Abstract algebra utilities"
   s.description  = <<-DESC
     Semigroup, Monoid, etc

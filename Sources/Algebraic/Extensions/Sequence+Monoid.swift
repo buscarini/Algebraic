@@ -15,3 +15,9 @@ extension Sequence {
 		foldMap(id, monoid)
 	}
 }
+
+extension Sequence where Element: Monoidal {
+	public func reduced() -> Element {
+		foldMap(id, Element.monoid)
+	}
+}

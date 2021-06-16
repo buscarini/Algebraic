@@ -17,4 +17,20 @@ class SequenceTests: XCTestCase {
 		XCTAssertNil([].reduced(Semigroup<Int>.max))
 		XCTAssertEqual(ints.reduced(Semigroup<Int>.max), 100000)
 	}
+	
+	func testReduceMonoidal() {
+		XCTAssertEqual(
+			[
+				Ordering.lt, .eq, .lt, .eq
+			].reduced(),
+			.lt
+		)
+		
+		XCTAssertEqual(
+			[
+				Ordering.gt, .eq, .lt, .lt
+			].reduced(),
+			.gt
+		)
+	}
 }
