@@ -9,8 +9,8 @@
 import Foundation
 
 extension String {
-	public static var longest: Semigroup<String> {
-		Semigroup.max
+	public static var longest: Monoid<String> {
+		Monoid.max
 	}
 }
 

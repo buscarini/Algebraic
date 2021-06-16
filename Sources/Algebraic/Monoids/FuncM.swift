@@ -13,6 +13,12 @@ public struct FuncM<A, M> {
 	public init(_ value: @escaping (A) -> M) {
 		self.value = value
 	}
+	
+	public func callAsFunction(
+		_ input: A
+	) -> M {
+		value(input)
+	}
 }
 
 extension FuncM {
