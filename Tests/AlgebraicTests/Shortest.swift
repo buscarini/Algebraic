@@ -1,11 +1,3 @@
-//
-//  Shortest.swift
-//  Algebraic
-//
-//  Created by José Manuel Sánchez Peñarroja on 24/7/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
-//
-
 import Foundation
 
 import XCTest

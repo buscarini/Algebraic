@@ -1,10 +1,3 @@
-//
-//  SequenceTests.swift
-//  AlgebraicTests
-//
-//  Created by José Manuel Sánchez Peñarroja on 07/09/2020.
-//
-
 import Foundation
 import XCTest
 
@@ -30,6 +23,22 @@ class SequenceTests: XCTestCase {
 			[
 				Ordering.gt, .eq, .lt, .lt
 			].reduced(),
+			.gt
+		)
+	}
+	
+	func testReduceSemigroupal() {
+		XCTAssertEqual(
+			[
+				Ordering.lt, .eq, .lt, .eq
+			].reduced(initial: .eq),
+			.lt
+		)
+		
+		XCTAssertEqual(
+			[
+				Ordering.gt, .eq, .lt, .lt
+			].reduced(initial: .gt),
 			.gt
 		)
 	}

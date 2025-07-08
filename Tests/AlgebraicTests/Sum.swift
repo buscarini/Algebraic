@@ -1,11 +1,3 @@
-//
-//  Sum.swift
-//  Algebraic
-//
-//  Created by José Manuel Sánchez Peñarroja on 1/6/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
-//
-
 import XCTest
 import Algebraic
 

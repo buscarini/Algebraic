@@ -1,21 +1,14 @@
-//
-//  Semigroup.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 31/5/17.
-//
-//
-
 import Foundation
 
 public struct Semigroup<T> {
-	public var combine: (T, T) -> T
+	public var combine: @Sendable (T, T) -> T
 	
-	public init(combine: @escaping (T, T) -> T) {
+	public init(combine: @escaping @Sendable (T, T) -> T) {
 		self.combine = combine
 	}
 	
 	public func lift() -> Monoid<T?> {
+		let combine = self.combine
 		return Monoid<T?>.init(empty: nil) { left, right in
 			guard let left = left else {
 				return right
@@ -25,7 +18,7 @@ public struct Semigroup<T> {
 				return left
 			}
 			
-			return self.combine(left, right)
+			return combine(left, right)
 		}
 	}
 }
@@ -35,3 +28,5 @@ extension Semigroup {
 		items.reduced(initial, self)
 	}
 }
+
+extension Semigroup: Sendable where T: Sendable {}

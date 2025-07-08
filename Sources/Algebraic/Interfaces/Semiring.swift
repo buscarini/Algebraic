@@ -1,10 +1,3 @@
-//
-//  Semiring.swift
-//  Algebraic
-//
-//  Created by José Manuel Sánchez Peñarroja on 04/09/2020.
-//
-
 import Foundation
 
 public struct Semiring<T> {

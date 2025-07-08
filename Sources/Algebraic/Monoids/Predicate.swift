@@ -11,17 +11,17 @@ import Foundation
 public typealias Predicate<A> = FuncM<A, Bool>
 
 extension FuncM {
-	public static func && <A>(
-		_ left: Predicate<A>,
-		_ right: Predicate<A>
-	) -> Predicate<A> {
-		Predicate<A>.monoid(Monoid<Bool>.all).combine(left, right)
+	public static func && <Value>(
+		_ left: Predicate<Value>,
+		_ right: Predicate<Value>
+	) -> Predicate<Value> {
+		Predicate<Value>.monoid(Monoid<Bool>.all).combine(left, right)
 	}
 
-	public static func || <A>(
-		_ left: Predicate<A>,
-		_ right: Predicate<A>
-	) -> Predicate<A> {
-		Predicate<A>.monoid(Monoid<Bool>.any).combine(left, right)
+	public static func || <Value>(
+		_ left: Predicate<Value>,
+		_ right: Predicate<Value>
+	) -> Predicate<Value> {
+		Predicate<Value>.monoid(Monoid<Bool>.any).combine(left, right)
 	}
 }

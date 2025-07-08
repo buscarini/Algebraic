@@ -1,11 +1,3 @@
-//
-//  LowerBounded.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 24/7/17.
-//
-//
-
 import Foundation
 
 public protocol LowerBounded {
@@ -58,33 +50,33 @@ extension UInt64: LowerBounded {
 
 extension Int: LowerBounded {
 	public static var minValue: Int {
-		return Int.min
+		return -Int.max
 	}
 }
 
 extension Int8: LowerBounded {
 	public static var minValue: Int8 {
-		return Int8.min
+		return -Int8.max
 	}
 }
 
 extension Int16: LowerBounded {
 	public static var minValue: Int16 {
-		return Int16.min
+		return -Int16.max
 	}
 }
 
 
 extension Int32: LowerBounded {
 	public static var minValue: Int32 {
-		return Int32.min
+		return -Int32.max
 	}
 }
 
 
 extension Int64: LowerBounded {
 	public static var minValue: Int64 {
-		return Int64.min
+		return -Int64.max
 	}
 }
 
@@ -96,7 +88,7 @@ extension Float: LowerBounded {
 
 extension Double: LowerBounded {
 	public static var minValue: Double {
-		return Double.greatestFiniteMagnitude
+		return -Double.greatestFiniteMagnitude
 	}
 }
 

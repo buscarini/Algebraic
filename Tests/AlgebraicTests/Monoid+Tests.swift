@@ -1,10 +1,3 @@
-//
-//  Monoid+Tests.swift
-//  AlgebraicTests
-//
-//  Created by José Manuel Sánchez Peñarroja on 07/09/2020.
-//
-
 import Foundation
 import XCTest
 import Algebraic

@@ -1,11 +1,3 @@
-//
-//  Average.swift
-//  Algebraic
-//
-//  Created by José Manuel Sánchez Peñarroja on 2/6/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
-//
-
 import XCTest
 
 import Algebraic
@@ -24,8 +16,7 @@ class AverageTests: XCTestCase {
 	
 	func testAverageFoldMap() {
 		XCTAssertEqual(
-			[2, 4]
-				.foldMap(Average<Int>.self).value,
+			[2, 4].foldMap(Average<Int>.self).value,
 			3
 		)
 	}

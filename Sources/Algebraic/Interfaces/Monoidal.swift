@@ -1,13 +1,6 @@
-//
-//  Monoidal.swift
-//  Algebraic
-//
-//  Created by José Manuel Sánchez Peñarroja on 02/09/2020.
-//
-
 import Foundation
 
-public protocol Monoidal {
+public protocol Monoidal: Semigroupal {
 	static var monoid: Monoid<Self> { get }
 }
 
@@ -18,5 +11,11 @@ extension Monoidal {
 	
 	func combine(_ otherItems: Self...) -> Self {
 		([self] + otherItems).reduced(Self.monoid)
+	}
+}
+
+extension Monoidal {
+	public static var semigroup: Semigroup<Self> {
+		self.monoid.semigroup
 	}
 }
