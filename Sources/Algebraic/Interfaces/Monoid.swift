@@ -4,7 +4,7 @@ public struct Monoid<T> {
 	public var empty: T
 	public var semigroup: Semigroup<T>
 	
-	public var combine: @Sendable (T, T) -> T {
+	public var combine: (T, T) -> T {
 		return semigroup.combine
 	}
 	
@@ -13,7 +13,7 @@ public struct Monoid<T> {
 		self.semigroup = semigroup
 	}
 	
-	public init(empty: T, combine: @escaping @Sendable (T, T) -> T) {
+	public init(empty: T, combine: @escaping (T, T) -> T) {
 		self.init(empty: empty, semigroup: Semigroup<T>.init(combine: combine))
 	}
 }
@@ -23,5 +23,3 @@ extension Monoid {
 		items.reduced(self)
 	}
 }
-
-extension Monoid: Sendable where T: Sendable {}

@@ -1,9 +1,9 @@
 import Foundation
 
 public struct Semigroup<T> {
-	public var combine: @Sendable (T, T) -> T
+	public var combine: (T, T) -> T
 	
-	public init(combine: @escaping @Sendable (T, T) -> T) {
+	public init(combine: @escaping (T, T) -> T) {
 		self.combine = combine
 	}
 	
@@ -28,5 +28,3 @@ extension Semigroup {
 		items.reduced(initial, self)
 	}
 }
-
-extension Semigroup: Sendable where T: Sendable {}
