@@ -1,11 +1,3 @@
-//
-//  Semigroup.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 31/5/17.
-//
-//
-
 import Foundation
 
 public struct Semigroup<T> {
@@ -16,6 +8,7 @@ public struct Semigroup<T> {
 	}
 	
 	public func lift() -> Monoid<T?> {
+		let combine = self.combine
 		return Monoid<T?>.init(empty: nil) { left, right in
 			guard let left = left else {
 				return right
@@ -25,7 +18,7 @@ public struct Semigroup<T> {
 				return left
 			}
 			
-			return self.combine(left, right)
+			return combine(left, right)
 		}
 	}
 }

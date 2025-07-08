@@ -1,11 +1,3 @@
-//
-//  FuncM.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 31/5/17.
-//
-//
-
 import Foundation
 
 public struct FuncM<A, M> {
@@ -25,8 +17,9 @@ extension FuncM {
 	public static func monoid(
 		_ m: Monoid<M>
 	) -> Monoid<FuncM> {
-		Monoid(empty: FuncM { _ in m.empty }) { left, right in
-			FuncM { m.combine(left.value($0), right.value($0)) }
+		let combine = m.combine
+		return Monoid(empty: FuncM { _ in m.empty }) { left, right in
+			FuncM { combine(left.value($0), right.value($0)) }
 		}
 	}
 }

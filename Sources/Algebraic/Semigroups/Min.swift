@@ -1,13 +1,4 @@
-//
-//  Min.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 31/5/17.
-//
-//
-
 import Foundation
-
 
 extension Semigroup where T: Comparable & Hashable {
 	public static var min: Semigroup {

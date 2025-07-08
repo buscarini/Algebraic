@@ -1,11 +1,3 @@
-//
-//  Composition.swift
-//  Pods
-//
-//  Created by José Manuel Sánchez Peñarroja on 7/6/16.
-//
-//
-
 import Foundation
 
 
